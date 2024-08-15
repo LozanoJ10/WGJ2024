@@ -15,7 +15,7 @@ public class Final_Juego : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Jugador"))
         {
             transicion.SetBool("EscenaFinal", true);
             StartCoroutine(iraEscenaFinal());

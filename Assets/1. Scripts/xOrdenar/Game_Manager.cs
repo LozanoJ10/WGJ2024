@@ -19,9 +19,11 @@ public class Game_Manager : MonoBehaviour
     public bool SePauso_Manager;
      [Header("Personaje")]
      public Rigidbody personaje;
+     public Animator anim;
 
     void Awake()
     {
+        anim = GameObject.Find("La niña").GetComponent<Animator>();
         moveP = GameObject.FindObjectOfType<MovimientoPlayer_Controller>();
         personaje = GameObject.Find("Jugador").GetComponent<Rigidbody>();
         relojCode=GameObject.FindObjectOfType<ControlReloj>();
@@ -43,12 +45,15 @@ public class Game_Manager : MonoBehaviour
     {
         if(SePauso_Manager)
         {
+            
+            moveP.horizontalInput = 0;
             moveP.enabled=false;
             relojCode.enabled=false;
             sliderTime.enabled=false;
             _MovimientoReloj.enabled=false;
             ControladorCamara.enabled=false;
             personaje.isKinematic=true;
+            
 
         }
         else{
@@ -70,3 +75,4 @@ public class Game_Manager : MonoBehaviour
         SePauso_Manager=false;
     }
 }
+
