@@ -58,6 +58,7 @@ public class OpcionesMenu : MonoBehaviour
 
     public void VolverOpciones()
     {
+        Debug.Log("Aqui va audio de seleccion");
         _panelOpciones.SetActive(false);
     }
 }

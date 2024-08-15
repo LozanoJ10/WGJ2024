@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/2. Escenas/MAIN.unity
     guid: 6b495c534c61c8d48a0f74dbb53d6324
+  - enabled: 1
+    path: Assets/2. Escenas/_BUs/Escenas Interfaz/Interfaz/Escena_Final.unity
+    guid: 7b07a0d5aa1a08c4a944fabe6ef6a28e
   m_configObjects: {}

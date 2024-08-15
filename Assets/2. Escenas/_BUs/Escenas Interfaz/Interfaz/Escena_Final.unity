@@ -320,7 +320,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 23.412931, y: 151.38802}
+  m_AnchoredPosition: {x: 195, y: -121}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &969349039
@@ -343,9 +343,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\"Aprend\xED que no se puede dar marcha atr\xE1s, que la esencia de la
-    vida es ir hacia adelante. La vida, en realidad, es una calle de sentido \xFAnico.\"
-    \n\n- Agatha Christie"
+  m_text: Gracias por jugar ECOS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bccaad1ea6200bf4e96aa20b37a86ebc, type: 2}
   m_sharedMaterial: {fileID: 8040810646620760036, guid: bccaad1ea6200bf4e96aa20b37a86ebc, type: 2}
@@ -354,8 +352,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
-  m_fontColor: {r: 1, g: 1, b: 1, a: 0}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -727,7 +725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70e02eba7aaea804a9360421aba118d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escena: MAIN
+  escena: Menu_Prinncipal
 --- !u!1 &1863749338
 GameObject:
   m_ObjectHideFlags: 0
