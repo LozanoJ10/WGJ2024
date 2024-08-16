@@ -55,8 +55,13 @@ public class CircularMovementDetector : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && IsPointerOverUIObject())
         {
             autoRotate = false; // Disable auto rotation when the user starts dragging
-            startPosition = rectTransform.anchoredPosition;
-            lastPosition = startPosition;
+
+            foreach (var controlTiempo in controlTiempos)
+            {                
+                    startPosition = rectTransform.anchoredPosition;
+                    lastPosition = startPosition;
+            }
+
             isDragging = true;
             lastTime = Time.time; // Store the time when dragging starts
             ////Debug.Log("Arrastre iniciado.");
@@ -109,8 +114,11 @@ public class CircularMovementDetector : MonoBehaviour
                 {
                     ////Debug.Log("Movimiento en sentido horario (manecillas del reloj). �ngulo: " + angle);
                     foreach (var controlTiempo in controlTiempos)
-                    {                        
-                        controlTiempo.StartRewind();
+                    {
+                        if (!controlTiempo.isRecording)
+                        {
+                            controlTiempo.StartRewind();
+                        }
                     }
                 }
                 else if (angle < 0)
@@ -118,7 +126,10 @@ public class CircularMovementDetector : MonoBehaviour
                     ////Debug.Log("Movimiento en sentido antihorario (contra las manecillas del reloj). �ngulo: " + angle);
                     foreach (var controlTiempo in controlTiempos)
                     {
-                        controlTiempo.StartForward();
+                        if (!controlTiempo.isRecording)
+                        {
+                            controlTiempo.StartForward();
+                        }
                     }
                 }
 

@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,7 +7,7 @@ public class TimeBody : MonoBehaviour
     public bool isForwarding = false;
     public bool isRecording = false; // Inicialmente la grabación es falsa
     public float recordTime = 5f; // Tiempo total para grabar
-    private float recordTimer = 0f; // Temporizador para rastrear el tiempo de grabación
+    public float recordTimer = 0f; // Temporizador para rastrear el tiempo de grabación
 
     List<PointInTime> pointsInTime;
     int currentIndex = 0; // Índice para rastrear la posición actual en forward y rewind
@@ -110,54 +109,60 @@ public class TimeBody : MonoBehaviour
         if (objetoRb == null) objetoRb = GetComponent<Rigidbody>();
         if (objetoRb != null)
         {
-            objetoRb.isKinematic = true; // Detener el movimiento del objeto
+            objetoRb.isKinematic = true; // Detener el movimiento del objeto solo cuando la grabación ha terminado
         }
     }
 
     public void StartRewind()
     {
-        isRewinding = true;
-        isForwarding = false;
-        isRecording = false; // Asegura que no siga grabando
-
-        if (objetoRb == null) objetoRb = GetComponent<Rigidbody>();
-        if (objetoRb != null)
+        // Asegurarse de que no esté grabando antes de permitir rebobinar
+        if (!isRecording && recordTimer >= recordTime)
         {
-            objetoRb.isKinematic = true;
+            isRewinding = true;
+            isForwarding = false;
+
+            if (objetoRb == null) objetoRb = GetComponent<Rigidbody>();
+            if (objetoRb != null)
+            {
+                objetoRb.isKinematic = true; // Solo activar isKinematic si la grabación ha terminado
+            }
+        }
+        else
+        {
+            Debug.Log("Cannot rewind while still recording or before recording is complete!");
         }
     }
 
     public void StopRewind()
     {
         isRewinding = false;
-        if (objetoRb == null) objetoRb = GetComponent<Rigidbody>();
-        if (objetoRb != null)
-        {
-            objetoRb.isKinematic = true;
-        }
+        // isKinematic permanece activado solo si se cumple la condición
     }
 
     public void StartForward()
     {
-        isForwarding = true;
-        isRewinding = false;
-        isRecording = false; // Asegura que no siga grabando
-
-        if (objetoRb == null) objetoRb = GetComponent<Rigidbody>();
-        if (objetoRb != null)
+        // Asegurarse de que no esté grabando antes de permitir avanzar
+        if (!isRecording && recordTimer >= recordTime)
         {
-            objetoRb.isKinematic = true;
+            isForwarding = true;
+            isRewinding = false;
+
+            if (objetoRb == null) objetoRb = GetComponent<Rigidbody>();
+            if (objetoRb != null)
+            {
+                objetoRb.isKinematic = true; // Solo activar isKinematic si la grabación ha terminado
+            }
+        }
+        else
+        {
+            Debug.Log("Cannot forward while still recording or before recording is complete!");
         }
     }
 
     public void StopForward()
     {
         isForwarding = false;
-        if (objetoRb == null) objetoRb = GetComponent<Rigidbody>();
-        if (objetoRb != null)
-        {
-            objetoRb.isKinematic = true;
-        }
+        // isKinematic permanece activado solo si se cumple la condición
     }
 
     void AddRigidbody()
@@ -176,14 +181,14 @@ public class TimeBody : MonoBehaviour
 
     void StartRecording()
     {
-            isRecording = true;
-            recordTimer = 0f; // Reinicia el temporizador al comenzar la grabación
-            if (objetoRb == null) objetoRb = GetComponent<Rigidbody>();
-            if (objetoRb != null)
-            {
-                objetoRb.isKinematic = false; // Asegura que el objeto puede moverse si es necesario
-            }
-            Debug.Log("Recording started.");
+        isRecording = true;
+        recordTimer = 0f; // Reinicia el temporizador al comenzar la grabación
+        if (objetoRb == null) objetoRb = GetComponent<Rigidbody>();
+        if (objetoRb != null)
+        {
+            objetoRb.isKinematic = false; // Asegura que el objeto puede moverse si es necesario durante la grabación
+        }
+        Debug.Log("Recording started.");
     }
 
     // Nuevo método para agregar Rigidbody y empezar la grabación
