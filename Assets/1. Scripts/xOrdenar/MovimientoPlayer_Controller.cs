@@ -32,8 +32,7 @@ public class MovimientoPlayer_Controller : MonoBehaviour
 
     void Start()
     {
-        playerRb = GetComponent<Rigidbody>();
-        Debug.LogWarning("Nota 1: Cambiar colliders al poner los assets, habra problemas, se pegara y podra saltar");
+        playerRb = GetComponent<Rigidbody>();        
     }
 
     void Update()

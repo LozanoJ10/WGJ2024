@@ -4,9 +4,11 @@ public class AnimationController : MonoBehaviour
 {
     public Animator animator;
     public AccionSilvido silvido;
+    public SilvidoController silvidoController;
     public float animationSpeed = 0; // Velocidad inicial de la animación
 
     public GameObject loopWarp;
+    public GameObject tutoCantar;
     public bool esTest;
 
     void Start()
@@ -17,7 +19,7 @@ public class AnimationController : MonoBehaviour
     void Update()
     {
 
-        if (!esTest)
+        if (silvidoController.isMicrophoneAvailable)
         {
             // Cambia la velocidad de la animación en tiempo de ejecución
             animationSpeed = silvido.valorRecibidoSoplido;
@@ -72,5 +74,6 @@ public class AnimationController : MonoBehaviour
     public void DesactivarLoop2()
     { 
         loopWarp.SetActive(false);    
+        tutoCantar.SetActive(false);
     }
 }

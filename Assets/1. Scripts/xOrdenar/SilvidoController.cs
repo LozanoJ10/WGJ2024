@@ -8,21 +8,66 @@ public class SilvidoController : MonoBehaviour
     private AudioClip microphoneClip;
     public float loudnessThreshold; // Umbral para considerar que el sonido es "alto"
     public float minimumLoudness; // Umbral mínimo para ignorar valores muy bajos
+    public bool isMicrophoneAvailable = false; // Booleano para comprobar si hay dispositivos disponibles
+    private string selectedMicrophone; // Micrófono seleccionado para grabar
 
     private void Start()
     {
-        MicrophoneToAudioClip();
+        CheckMicrophoneAvailability();
+
+        if (isMicrophoneAvailable)
+        {
+            MicrophoneToAudioClip();
+        }
+        else
+        {
+            Debug.LogWarning("No se detectó ningún micrófono disponible.");
+        }
+    }
+
+    private void CheckMicrophoneAvailability()
+    {
+        foreach (string device in Microphone.devices)
+        {
+            AudioClip testClip = Microphone.Start(device, true, 1, 44100);
+            if (testClip != null)
+            {
+                Debug.Log("Dispositivo disponible: " + device);
+                selectedMicrophone = device;
+                isMicrophoneAvailable = true;
+                Microphone.End(device); // Detenemos la grabación de prueba
+                break; // Salimos del bucle después de encontrar el primer dispositivo disponible
+            }
+            else
+            {
+                Debug.LogWarning("No se pudo iniciar la grabación con el dispositivo: " + device);
+            }
+        }
     }
 
     public void MicrophoneToAudioClip()
     {
-        string microphoneName = Microphone.devices[0];
-        microphoneClip = Microphone.Start(microphoneName, true, 20, AudioSettings.outputSampleRate);
+        if (isMicrophoneAvailable)
+        {
+            microphoneClip = Microphone.Start(selectedMicrophone, true, 20, AudioSettings.outputSampleRate);
+        }
     }
 
     public float GetLoudnessFromMicrophone()
     {
-        float loudness = GetLoudnessFromAudioClip(Microphone.GetPosition(Microphone.devices[0]), microphoneClip);
+        if (!isMicrophoneAvailable)
+        {
+            Debug.LogWarning("No se puede obtener la intensidad del sonido porque no hay un micrófono disponible.");
+            return 0;
+        }
+
+        if (microphoneClip == null)
+        {
+            Debug.LogWarning("No se puede obtener la intensidad del sonido porque no hay un clip de micrófono.");
+            return 0;
+        }
+
+        float loudness = GetLoudnessFromAudioClip(Microphone.GetPosition(selectedMicrophone), microphoneClip);
 
         // Ignorar valores de loudness muy bajos
         if (loudness < minimumLoudness)
@@ -41,6 +86,11 @@ public class SilvidoController : MonoBehaviour
 
     public float GetLoudnessFromAudioClip(int clipPosition, AudioClip clip)
     {
+        if (!isMicrophoneAvailable)
+        {
+            return 0;
+        }
+
         int startPosition = clipPosition - sampleWindow;
 
         if (startPosition < 0)

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PisoGYM : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public bool ocultar;
     void Start()
     {
         
