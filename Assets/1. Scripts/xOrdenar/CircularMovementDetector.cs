@@ -29,9 +29,11 @@ public class CircularMovementDetector : MonoBehaviour
 
     private float lastTime; // Store the time when dragging starts
 
-
     [Header("Vhs")]
     public GameObject vhsEfecto;
+    [Header("Implementacion Sonido")]
+    public LU_SoundManager implementacionSonido;
+    public bool dioClick = false;
 
 
     //Juan estuvo aqui
@@ -61,6 +63,8 @@ public class CircularMovementDetector : MonoBehaviour
             ///
 
             vhsEfecto.SetActive(true);
+            //
+            
         }
 
         if (Input.GetMouseButtonUp(0))
@@ -77,10 +81,15 @@ public class CircularMovementDetector : MonoBehaviour
             ///
 
             vhsEfecto.SetActive(false);
+
+
         }
 
         if (isDragging)
         {
+            if(!dioClick)
+                implementacionSonido.SonidoRetrocederTiempo();
+
             Vector2 currentPosition = rectTransform.anchoredPosition;
             Vector2 direction = currentPosition - lastPosition;
 
@@ -100,7 +109,7 @@ public class CircularMovementDetector : MonoBehaviour
                 {
                     ////Debug.Log("Movimiento en sentido horario (manecillas del reloj). �ngulo: " + angle);
                     foreach (var controlTiempo in controlTiempos)
-                    {
+                    {                        
                         controlTiempo.StartRewind();
                     }
                 }
@@ -118,6 +127,7 @@ public class CircularMovementDetector : MonoBehaviour
             }
             else
             {
+                Debug.Log("LU_Aqui se debe detener el sonido de RETORCEDER EL TIEMPO Colocar el Stop de la pista");
                 // Stop actions if there's no significant movement
                 foreach (var controlTiempo in controlTiempos)
                 {

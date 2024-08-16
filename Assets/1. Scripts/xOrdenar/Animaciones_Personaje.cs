@@ -7,6 +7,7 @@ public class Aniamciones_Niña : MonoBehaviour
     // Start is called before the first frame update
 
     public MovimientoPlayer_Controller playerMove;
+    public LU_SoundManager implementacionSonido;
     public Animator anim;
 
     void Awake()
@@ -40,5 +41,10 @@ public class Aniamciones_Niña : MonoBehaviour
         {
             anim.SetBool("Walk",false);
         }
+    }
+
+    public void SonidoCaminarMov()
+    {
+        implementacionSonido.SonidoPasos();    
     }
 }

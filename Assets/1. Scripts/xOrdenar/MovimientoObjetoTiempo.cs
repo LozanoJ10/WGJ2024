@@ -15,9 +15,12 @@ public class MovimientoObjetoTiempo : MonoBehaviour
     public bool objetoActivado = false;
     public bool esObjetoActivable;
 
-    public RengoDeteccion rangoDeteccion;
-    
+    public RengoDeteccion rangoDeteccion;    
     private static MovimientoObjetoTiempo currentAssignedObject; // Static reference to track the current object with the slider assigned
+
+    [Header("Implementacion Sonido")]
+    public LU_SoundManager implementacionSonido;
+    //public bool dioClick = false;
 
 
     void Start()
@@ -99,6 +102,12 @@ public class MovimientoObjetoTiempo : MonoBehaviour
 
     private void OnMouseDown()
     {
+        //if (!dioClick)
+        //{ 
+            implementacionSonido.SonidoSeleccionObjeto();
+            //dioClick = true;
+        //}
+
         // Verificar si el clic pasó a través del objeto transparente
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit[] hits = Physics.RaycastAll(ray);

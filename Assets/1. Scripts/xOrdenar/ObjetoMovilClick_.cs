@@ -13,6 +13,9 @@ public class ObjetoMovilClick_ : MonoBehaviour
     private Vector3 pivotPosition; // Posición inicial del objeto que actúa como pivote fijo
 
     public bool puedeMover = true;
+    [Header("Implementacion Sonido")]
+    public LU_SoundManager sonidoDarClick;
+    public bool dioClick = false;
 
     void Start()
     {
@@ -44,6 +47,7 @@ public class ObjetoMovilClick_ : MonoBehaviour
             if (Input.GetMouseButtonUp(0))
             {
                 isDragging = false;
+                dioClick = false; // LU
             }
 
             if (isDragging)
@@ -76,6 +80,15 @@ public class ObjetoMovilClick_ : MonoBehaviour
         {
             isDragging = false;
             Input.GetMouseButtonUp(0);
+        }
+    }
+
+    private void OnMouseDown()
+    {
+        if (!dioClick)
+        {
+            sonidoDarClick.SonidoSeleccionObjeto();
+            dioClick = true;
         }
     }
 

@@ -2350,6 +2350,7 @@ MonoBehaviour:
   objetoActivado: 0
   esObjetoActivable: 1
   rangoDeteccion: {fileID: 0}
+  implementacionSonido: {fileID: 669238711}
 --- !u!65 &35628326
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9183,6 +9184,8 @@ MonoBehaviour:
   distanciaMaxima: 5
   suavizado: 5
   puedeMover: 1
+  sonidoDarClick: {fileID: 669238711}
+  dioClick: 0
 --- !u!65 &138572294
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14147,6 +14150,7 @@ MonoBehaviour:
   objetoActivado: 0
   esObjetoActivable: 0
   rangoDeteccion: {fileID: 0}
+  implementacionSonido: {fileID: 669238711}
 --- !u!65 &218833892
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16296,6 +16300,8 @@ MonoBehaviour:
   distanciaMaxima: 5
   suavizado: 5
   puedeMover: 1
+  sonidoDarClick: {fileID: 669238711}
+  dioClick: 0
 --- !u!65 &260485500
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20302,6 +20308,8 @@ MonoBehaviour:
   distanciaMaxima: 5
   suavizado: 5
   puedeMover: 1
+  sonidoDarClick: {fileID: 669238711}
+  dioClick: 0
 --- !u!65 &320584427
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21131,6 +21139,7 @@ MonoBehaviour:
   objetoActivado: 0
   esObjetoActivable: 0
   rangoDeteccion: {fileID: 0}
+  implementacionSonido: {fileID: 669238711}
 --- !u!65 &334897534
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21421,6 +21430,8 @@ MonoBehaviour:
   distanciaMaxima: 5
   suavizado: 5
   puedeMover: 1
+  sonidoDarClick: {fileID: 669238711}
+  dioClick: 0
 --- !u!65 &339595181
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24518,6 +24529,7 @@ MonoBehaviour:
   objetoActivado: 0
   esObjetoActivable: 0
   rangoDeteccion: {fileID: 0}
+  implementacionSonido: {fileID: 669238711}
 --- !u!65 &397988162
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28263,6 +28275,8 @@ MonoBehaviour:
   distanciaMaxima: 5
   suavizado: 5
   puedeMover: 1
+  sonidoDarClick: {fileID: 669238711}
+  dioClick: 0
 --- !u!65 &478635474
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36694,6 +36708,8 @@ MonoBehaviour:
   distanciaMaxima: 5
   suavizado: 5
   puedeMover: 1
+  sonidoDarClick: {fileID: 669238711}
+  dioClick: 0
 --- !u!65 &624489138
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37377,6 +37393,8 @@ MonoBehaviour:
   distanciaMaxima: 5
   suavizado: 5
   puedeMover: 1
+  sonidoDarClick: {fileID: 669238711}
+  dioClick: 0
 --- !u!65 &634093683
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40238,6 +40256,8 @@ MonoBehaviour:
   distanciaMaxima: 5
   suavizado: 5
   puedeMover: 1
+  sonidoDarClick: {fileID: 669238711}
+  dioClick: 0
 --- !u!65 &684457089
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44075,6 +44095,7 @@ MonoBehaviour:
   objetoActivado: 0
   esObjetoActivable: 1
   rangoDeteccion: {fileID: 0}
+  implementacionSonido: {fileID: 669238711}
 --- !u!65 &755210887
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46164,6 +46185,8 @@ MonoBehaviour:
   minuteSpeed: 3000
   hourSpeed: 11000
   vhsEfecto: {fileID: 571394043}
+  implementacionSonido: {fileID: 669238711}
+  dioClick: 0
 --- !u!4 &776598316
 Transform:
   m_ObjectHideFlags: 0
@@ -52705,6 +52728,8 @@ MonoBehaviour:
   distanciaMaxima: 5
   suavizado: 5
   puedeMover: 1
+  sonidoDarClick: {fileID: 669238711}
+  dioClick: 0
 --- !u!65 &860678668
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54289,6 +54314,8 @@ MonoBehaviour:
   distanciaMaxima: 5
   suavizado: 5
   puedeMover: 1
+  sonidoDarClick: {fileID: 669238711}
+  dioClick: 0
 --- !u!65 &888468462
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57767,6 +57794,7 @@ MonoBehaviour:
   objetoActivado: 0
   esObjetoActivable: 1
   rangoDeteccion: {fileID: 0}
+  implementacionSonido: {fileID: 669238711}
 --- !u!65 &941970849
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58905,7 +58933,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: -0.0016666697, y: 0.00000001720649, z: 2.8677576e-11, w: 0.9999986}
-  m_LocalPosition: {x: 24.699976, y: 1.2699993, z: 5}
+  m_LocalPosition: {x: 238.60999, y: 1.7199984, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -61184,7 +61212,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 991962230}
   m_LocalRotation: {x: -0.0016666697, y: 0.00000001720649, z: 2.8677576e-11, w: 0.9999986}
-  m_LocalPosition: {x: 24.699976, y: 1.2699993, z: 5}
+  m_LocalPosition: {x: 238.60999, y: 1.7199984, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -66622,6 +66650,8 @@ MonoBehaviour:
   distanciaMaxima: 5
   suavizado: 5
   puedeMover: 1
+  sonidoDarClick: {fileID: 669238711}
+  dioClick: 0
 --- !u!65 &1082422661
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69663,6 +69693,7 @@ MonoBehaviour:
   objetoActivado: 0
   esObjetoActivable: 1
   rangoDeteccion: {fileID: 0}
+  implementacionSonido: {fileID: 669238711}
 --- !u!65 &1142683145
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70761,6 +70792,8 @@ MonoBehaviour:
   distanciaMaxima: 5
   suavizado: 5
   puedeMover: 1
+  sonidoDarClick: {fileID: 669238711}
+  dioClick: 0
 --- !u!65 &1154591569
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72164,7 +72197,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1173007156}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 24.7, y: -0.1, z: 5}
+  m_LocalPosition: {x: 239.16, y: 0.35, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -74331,6 +74364,8 @@ MonoBehaviour:
   distanciaMaxima: 5
   suavizado: 5
   puedeMover: 1
+  sonidoDarClick: {fileID: 669238711}
+  dioClick: 0
 --- !u!65 &1214405631
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -79353,6 +79388,7 @@ MonoBehaviour:
   objetoActivado: 0
   esObjetoActivable: 0
   rangoDeteccion: {fileID: 0}
+  implementacionSonido: {fileID: 669238711}
 --- !u!65 &1284338738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -80976,6 +81012,7 @@ MonoBehaviour:
   objetoActivado: 0
   esObjetoActivable: 0
   rangoDeteccion: {fileID: 0}
+  implementacionSonido: {fileID: 669238711}
 --- !u!65 &1321683176
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -82525,6 +82562,8 @@ MonoBehaviour:
   distanciaMaxima: 5
   suavizado: 5
   puedeMover: 1
+  sonidoDarClick: {fileID: 669238711}
+  dioClick: 0
 --- !u!65 &1342260989
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -99244,6 +99283,8 @@ MonoBehaviour:
   distanciaMaxima: 5
   suavizado: 5
   puedeMover: 1
+  sonidoDarClick: {fileID: 669238711}
+  dioClick: 0
 --- !u!65 &1634835124
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -102117,7 +102158,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677583886}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.699976, y: -0.10000038, z: 5}
+  m_LocalPosition: {x: 238.60999, y: 0.3499987, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -102677,6 +102718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMove: {fileID: 0}
+  implementacionSonido: {fileID: 669238711}
   anim: {fileID: 0}
 --- !u!95 &1684281435
 Animator:
@@ -105038,6 +105080,7 @@ MonoBehaviour:
   objetoActivado: 0
   esObjetoActivable: 0
   rangoDeteccion: {fileID: 0}
+  implementacionSonido: {fileID: 669238711}
 --- !u!65 &1722886606
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -108857,6 +108900,8 @@ MonoBehaviour:
   distanciaMaxima: 5
   suavizado: 5
   puedeMover: 1
+  sonidoDarClick: {fileID: 669238711}
+  dioClick: 0
 --- !u!1 &1778587024
 GameObject:
   m_ObjectHideFlags: 0
@@ -108882,7 +108927,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1778587024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.699976, y: 0.049999237, z: 5}
+  m_LocalPosition: {x: 238.60999, y: 0.49999833, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -112311,6 +112356,7 @@ MonoBehaviour:
   objetoActivado: 0
   esObjetoActivable: 0
   rangoDeteccion: {fileID: 0}
+  implementacionSonido: {fileID: 669238711}
 --- !u!65 &1821612222
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -115648,6 +115694,7 @@ MonoBehaviour:
   objetoActivado: 0
   esObjetoActivable: 0
   rangoDeteccion: {fileID: 0}
+  implementacionSonido: {fileID: 669238711}
 --- !u!65 &1878470945
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -124551,6 +124598,8 @@ MonoBehaviour:
   distanciaMaxima: 5
   suavizado: 5
   puedeMover: 1
+  sonidoDarClick: {fileID: 669238711}
+  dioClick: 0
 --- !u!65 &2033297367
 BoxCollider:
   m_ObjectHideFlags: 0

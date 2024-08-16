@@ -53,6 +53,8 @@ public class LU_SoundManager : MonoBehaviour
     public void SonidoRetrocederTiempo()
     {
         Debug.Log("LU :: Aqui Sonido Retroceder Tiempo");
+        // Este funcionara mientras se esta usando la mecancia, supongo que la forma seria darle un STOP cuando deje de usarse
+        // En el codigo que ejecuta este comnado, coloque el punto donde se debe pausar. TAMBIEN EN LA CONSOLA te apunta donde.
     }
 
     // DE ENEMIGO JEFE
