@@ -65,6 +65,20 @@ public class LU_SoundManager : MonoBehaviour
         Debug.Log("LU :: Aqui Sonido Encontrarse con Jefe");
     }
 
+    public void SonidoRetenerEnemigo()
+    {
+        Debug.Log("LU :: Aqui Sonido - Al darle click al enemigo lo retiene y si sostiene durante 3 segundos, lo destruye.");
+    }
+    public void SonidoRomperEscudo()
+    {
+        Debug.Log("LU :: Aqui Sonido Romper Escudos o burbujas creo?");
+    }
+
+    public void SonidoRomperObjetos()
+    {
+        Debug.Log("LU :: Aqui Sonido Romper objetos (rocas que lanza el jefe)");
+    }
+
     // DE ENEMIGO MINION
     // Sera al darle click y sostenerlo para matarlo.
 

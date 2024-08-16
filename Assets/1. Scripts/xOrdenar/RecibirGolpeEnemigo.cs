@@ -13,6 +13,7 @@ public class RecibirGolpeEnemigo : MonoBehaviour
     public GameObject escudo;
     [Header("_")]
     public NavMeshAgent enemigoAgent;
+    public LU_SoundManager implementacionSonido;
 
 
     void Start()
@@ -25,13 +26,16 @@ public class RecibirGolpeEnemigo : MonoBehaviour
     {
         if (isVibrating)
         {
-            timer += Time.deltaTime;            
+            timer += Time.deltaTime;
+            implementacionSonido.SonidoRetenerEnemigo();
+            
         }
 
         if (timer >= 3)
         { 
             escudo.SetActive(false);
             enemigoEstats.tieneEscudo = false;
+            implementacionSonido.SonidoRomperEscudo();
             Destroy(this.gameObject);
         }
     }
@@ -40,6 +44,7 @@ public class RecibirGolpeEnemigo : MonoBehaviour
     void OnMouseDown()
     {
         Debug.Log("Objeto clickeado: " + gameObject.name);
+        
         isVibrating = true;        
         StartCoroutine(Vibrar());
         //

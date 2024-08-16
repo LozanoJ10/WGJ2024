@@ -12,6 +12,7 @@ public class spawnJefe1 : MonoBehaviour
     public GameObject minionPrefab;
 
     private IEnumerator minionSpawner;
+    public LU_SoundManager implementacionSonidos;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +35,7 @@ public class spawnJefe1 : MonoBehaviour
             // Instanciamos el prefab del jefe en el punto de spawn
             Instantiate(jefePrefab, puntoSpawnJefe_1.position, puntoSpawnJefe_1.rotation);
             spawneo = true;
+            implementacionSonidos.MusicaAparicionJefe();
 
             // Iniciar el contador para instanciar minions
             minionSpawner = SpawnMinionsWithDelay();

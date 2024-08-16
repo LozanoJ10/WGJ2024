@@ -570,6 +570,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &6635316
 BoxCollider:
@@ -1606,7 +1607,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &22746494
 BoxCollider:
@@ -2508,7 +2510,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &36202083
 BoxCollider:
@@ -3651,7 +3654,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 3.5
+  recordTime: 2.5
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &63383512
 BoxCollider:
@@ -5207,6 +5211,7 @@ MonoBehaviour:
   "spawnObjetoDa\xF1o4": {fileID: 1839163347}
   "spawnObjetoDa\xF1o5": {fileID: 493829162}
   minionPrefab: {fileID: 3746339543924998963, guid: 02498f28c8d365548af5481a6ceff69a, type: 3}
+  implementacionSonidos: {fileID: 0}
 --- !u!1 &86888008
 GameObject:
   m_ObjectHideFlags: 0
@@ -5324,6 +5329,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 2
+  recordTimer: 0
   objetoUsado: 0
 --- !u!23 &86888255
 MeshRenderer:
@@ -6458,7 +6464,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &104331716
 BoxCollider:
@@ -7546,7 +7553,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 3.5
+  recordTime: 2.5
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &111430994
 BoxCollider:
@@ -13215,7 +13223,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &204430570
 BoxCollider:
@@ -13671,7 +13680,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 3.5
+  recordTime: 2.5
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &210858991
 BoxCollider:
@@ -17800,7 +17810,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &287892513
 BoxCollider:
@@ -18268,7 +18279,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 3.5
+  recordTime: 2.5
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &292524437
 BoxCollider:
@@ -21710,6 +21722,7 @@ MonoBehaviour:
   puntoSpawnJefe_3: {fileID: 944082121}
   jefePrefab: {fileID: 1371485785254639675, guid: d43590e541cfdd54b8ce06b952b1c4c3, type: 3}
   spawneo: 0
+  implementacionSonidos: {fileID: 669238711}
 --- !u!65 &353526082
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22084,7 +22097,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &366569083
 BoxCollider:
@@ -23966,7 +23980,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &390018540
 BoxCollider:
@@ -30710,6 +30725,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &524073879
 BoxCollider:
@@ -31627,7 +31643,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 3.5
+  recordTime: 2.5
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &538490432
 BoxCollider:
@@ -32836,6 +32853,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &558801279
 BoxCollider:
@@ -33237,6 +33255,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &567723335
 BoxCollider:
@@ -42899,7 +42918,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 3.5
+  recordTime: 2.5
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &731606042
 BoxCollider:
@@ -45284,7 +45304,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &764049544
 BoxCollider:
@@ -47751,7 +47772,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &795331271
 BoxCollider:
@@ -49742,7 +49764,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 3.5
+  recordTime: 2.5
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &821388182
 BoxCollider:
@@ -52111,6 +52134,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 2
+  recordTimer: 0
   objetoUsado: 0
 --- !u!23 &856253000
 MeshRenderer:
@@ -52486,7 +52510,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &858709784
 BoxCollider:
@@ -54892,6 +54917,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 2
+  recordTimer: 0
   objetoUsado: 0
 --- !u!23 &894424637
 MeshRenderer:
@@ -55029,7 +55055,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &894532150
 BoxCollider:
@@ -57450,6 +57477,7 @@ MonoBehaviour:
   timer: 0
   escudo: {fileID: 1251753010}
   enemigoAgent: {fileID: 0}
+  implementacionSonido: {fileID: 0}
 --- !u!54 &938042983
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -58933,7 +58961,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: -0.0016666697, y: 0.00000001720649, z: 2.8677576e-11, w: 0.9999986}
-  m_LocalPosition: {x: 238.60999, y: 1.7199984, z: 5}
+  m_LocalPosition: {x: 20.949982, y: 1.7199984, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -59364,6 +59392,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 2
+  recordTimer: 0
   objetoUsado: 0
 --- !u!23 &967346314
 MeshRenderer:
@@ -61212,7 +61241,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 991962230}
   m_LocalRotation: {x: -0.0016666697, y: 0.00000001720649, z: 2.8677576e-11, w: 0.9999986}
-  m_LocalPosition: {x: 238.60999, y: 1.7199984, z: 5}
+  m_LocalPosition: {x: 20.949982, y: 1.7199984, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -62871,7 +62900,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 3.5
+  recordTime: 2.5
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &1017469388
 BoxCollider:
@@ -71132,7 +71162,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &1160829066
 BoxCollider:
@@ -72111,7 +72142,7 @@ MonoBehaviour:
   fuerzaSalto: 6
   estaCorriendo: 0
   gizmoCenter: {x: 0, y: -1, z: 0}
-  gizmoSize: {x: 0.15, y: 0.1, z: 0.15}
+  gizmoSize: {x: 0.15, y: 0.5, z: 0.15}
 --- !u!54 &1173007159
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -72197,7 +72228,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1173007156}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 239.16, y: 0.35, z: 5}
+  m_LocalPosition: {x: 21.5, y: 0.35, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -74187,7 +74218,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 3.5
+  recordTime: 2.5
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &1205131006
 BoxCollider:
@@ -75738,6 +75770,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &1226928281
 BoxCollider:
@@ -76774,6 +76807,7 @@ MonoBehaviour:
   spawnMinion1: {fileID: 1574406795}
   spawnMinion2: {fileID: 1387541160}
   minionPrefab: {fileID: 792268203237168142, guid: 957e43a0bb9534d4a9b6a1aa93d9bc01, type: 3}
+  implementacionSonidos: {fileID: 669238711}
 --- !u!65 &1242593302
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -77970,7 +78004,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 3.5
+  recordTime: 2.5
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &1258880158
 BoxCollider:
@@ -83210,6 +83245,7 @@ MonoBehaviour:
   spawnMinion1: {fileID: 1806795960}
   spawnMinion2: {fileID: 113009516}
   minionPrefab: {fileID: 792268203237168142, guid: 957e43a0bb9534d4a9b6a1aa93d9bc01, type: 3}
+  implementacionSonidos: {fileID: 0}
 --- !u!65 &1351598669
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -86296,6 +86332,7 @@ MonoBehaviour:
   spawnMinion1: {fileID: 518472164}
   spawnMinion2: {fileID: 972379596}
   minionPrefab: {fileID: 792268203237168142, guid: 957e43a0bb9534d4a9b6a1aa93d9bc01, type: 3}
+  implementacionSonidos: {fileID: 0}
 --- !u!65 &1416920800
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -87869,7 +87906,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &1437578127
 BoxCollider:
@@ -88176,7 +88214,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 3.5
+  recordTime: 2.5
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &1439227239
 BoxCollider:
@@ -89753,7 +89792,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &1459682035
 BoxCollider:
@@ -92082,6 +92122,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &1489696694
 BoxCollider:
@@ -92926,6 +92967,7 @@ MonoBehaviour:
   timer: 0
   escudo: {fileID: 1014257733}
   enemigoAgent: {fileID: 0}
+  implementacionSonido: {fileID: 0}
 --- !u!54 &1501659496
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -95697,7 +95739,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &1556412827
 BoxCollider:
@@ -95809,6 +95852,7 @@ MonoBehaviour:
   "spawnObjetoDa\xF1o4": {fileID: 1073232526}
   "spawnObjetoDa\xF1o5": {fileID: 1568322550}
   minionPrefab: {fileID: 3746339543924998963, guid: 02498f28c8d365548af5481a6ceff69a, type: 3}
+  implementacionSonidos: {fileID: 0}
 --- !u!65 &1556920306
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -97127,6 +97171,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &1575897925
 BoxCollider:
@@ -97648,6 +97693,7 @@ MonoBehaviour:
   "spawnObjetoDa\xF1o4": {fileID: 2140288106}
   "spawnObjetoDa\xF1o5": {fileID: 1794098151}
   minionPrefab: {fileID: 382121035946199734, guid: 02498f28c8d365548af5481a6ceff69a, type: 3}
+  implementacionSonidos: {fileID: 669238711}
 --- !u!65 &1590072565
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -101585,7 +101631,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &1666870041
 BoxCollider:
@@ -102158,7 +102205,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677583886}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 238.60999, y: 0.3499987, z: 5}
+  m_LocalPosition: {x: 20.949982, y: 0.3499987, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -102595,7 +102642,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &1683402070
 BoxCollider:
@@ -108436,7 +108484,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &1774290507
 BoxCollider:
@@ -108927,7 +108976,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1778587024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 238.60999, y: 0.49999833, z: 5}
+  m_LocalPosition: {x: 20.949982, y: 0.49999833, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -109921,6 +109970,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &1786087059
 BoxCollider:
@@ -112097,6 +112147,7 @@ MonoBehaviour:
   puntoSpawnJefe_3: {fileID: 0}
   jefePrefab: {fileID: 792187784300173484, guid: d43590e541cfdd54b8ce06b952b1c4c3, type: 3}
   spawneo: 0
+  implementacionSonidos: {fileID: 0}
 --- !u!65 &1819380906
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -113712,7 +113763,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &1859062301
 BoxCollider:
@@ -114509,7 +114561,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &1865659801
 BoxCollider:
@@ -116277,7 +116330,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 3.5
+  recordTime: 2.5
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &1891632878
 BoxCollider:
@@ -118237,7 +118291,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 3.5
+  recordTime: 2.5
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &1926961601
 BoxCollider:
@@ -123273,6 +123328,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 2
+  recordTimer: 0
   objetoUsado: 0
 --- !u!23 &2017231878
 MeshRenderer:
@@ -125959,7 +126015,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &2068733729
 BoxCollider:
@@ -126230,7 +126287,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 3.5
+  recordTime: 2.5
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &2071385956
 BoxCollider:
@@ -126394,6 +126452,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &2073633655
 BoxCollider:
@@ -127405,6 +127464,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 2
+  recordTimer: 0
   objetoUsado: 0
 --- !u!23 &2092918518
 MeshRenderer:
@@ -127758,7 +127818,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &2096100048
 BoxCollider:
@@ -128561,6 +128622,7 @@ MonoBehaviour:
   timer: 0
   escudo: {fileID: 1558180738}
   enemigoAgent: {fileID: 0}
+  implementacionSonido: {fileID: 0}
 --- !u!54 &2105797947
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -131670,7 +131732,8 @@ MonoBehaviour:
   isRewinding: 0
   isForwarding: 0
   isRecording: 0
-  recordTime: 5
+  recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &2141836313
 BoxCollider:
@@ -135087,6 +135150,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 4
+  recordTimer: 0
   objetoUsado: 0
 --- !u!1 &6061579240239453695
 GameObject:
@@ -136870,6 +136934,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 2
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &6996315658308547215
 BoxCollider:
@@ -136961,6 +137026,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 2
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &7160421104710041507
 BoxCollider:
@@ -137605,6 +137671,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 2
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &8555098931086249923
 BoxCollider:
@@ -137699,6 +137766,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 2
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &8899174056795347089
 BoxCollider:
@@ -138039,6 +138107,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 2
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &8915586886155491614
 BoxCollider:
@@ -140482,6 +140551,7 @@ MonoBehaviour:
   isForwarding: 0
   isRecording: 0
   recordTime: 2
+  recordTimer: 0
   objetoUsado: 0
 --- !u!65 &9097660880965315718
 BoxCollider:

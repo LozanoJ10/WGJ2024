@@ -18,6 +18,7 @@ public class spawnJefe2 : MonoBehaviour
 
     private IEnumerator minionSpawner;
     private List<Transform> spawnPoints;
+    public LU_SoundManager implementacionSonidos;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +41,7 @@ public class spawnJefe2 : MonoBehaviour
         {
             // Instanciamos el prefab del jefe en el punto de spawn con su rotación original
             Instantiate(jefePrefab, puntoSpawnJefe_2.position, jefePrefab.transform.rotation);
+            implementacionSonidos.MusicaAparicionJefe();
             spawneo = true;
 
             // Iniciar el contador para instanciar minions

@@ -8,6 +8,8 @@ public class SpawnJefe3 : MonoBehaviour
     public GameObject jefePrefab; // Variable para el prefab del jefe
     public bool spawneo = false;
     //public GameManager sonidosLu;
+    public LU_SoundManager implementacionSonidos;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,7 @@ public class SpawnJefe3 : MonoBehaviour
             //
             //if(sonidosLu.mostrarAvisos)
             Debug.Log("AQUI PONER SONIDO DE APARECE MALA");
+            implementacionSonidos.MusicaAparicionJefe();
         }
 
         
