@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9B5B6373-3284-49F2-B115-89892F8998FC}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="UI" ID="{9B5B6373-3284-49F2-B115-89892F8998FC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Selección en el menu" ID="{3AA9AE14-40CF-4CE1-AAA4-C82D328E8F3B}" ShortID="579262697">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>42</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>41</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>1390</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{0D6EFC34-C334-4895-A7CF-F86253379F64}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{B76D65D4-8B15-48F4-8A2E-9DEAA76F1E29}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="0.5"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Selección en el menu" ID="{F734BC57-7423-4B59-BE3E-714D6B30C381}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.156254724111867"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.173833380574452"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Selección en el menu.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="175376852"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Selección en el menu" ID="{F734BC57-7423-4B59-BE3E-714D6B30C381}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sfx_checkpoint_01" ID="{A084F9C9-3BAE-4FBE-BFAD-EFDE70AA1B4E}" ShortID="221799623">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{47E44D4C-BAFA-43DA-B616-AE5CB67CD108}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C9631233-E3BA-49B2-8D12-1E14F3EC8CAC}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="0.5"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sfx_checkpoint_01" ID="{3BAC604C-F333-4960-8AAD-D1CF37B23D9A}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="1.51385739480978"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.51385739480978"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>sfx_checkpoint_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="991346133"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sfx_checkpoint_01" ID="{3BAC604C-F333-4960-8AAD-D1CF37B23D9A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sfx_recoje_elemento para rebobinar_01" ID="{14FD9B39-552B-478E-A998-3EA3CC25CC89}" ShortID="232178943">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{F55E39E4-671C-468F-A8DE-6613B325FB1F}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{26142397-D0D0-4907-8D94-5A40264C6C37}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sfx_recoje_elemento para rebobinar_01" ID="{2D6BD745-8BFE-4D1C-887C-3D197E8BFA9E}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.974703955656337"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.974703955656337"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>sfx_recoje_elemento para rebobinar_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="586289385"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sfx_recoje_elemento para rebobinar_01" ID="{2D6BD745-8BFE-4D1C-887C-3D197E8BFA9E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Sfx_Transición Play_01" ID="{50EE4AB5-06F1-444F-AE46-635EAA96CD01}" ShortID="948278914">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{16047CF8-CCF4-4BC7-AF95-5B154DE805FC}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Sfx_Transición Play_01" ID="{F8E75F46-944B-4F9D-AE4E-44A0551EF445}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.873714726631393"/>
+								<Property Name="TrimEnd" Type="Real64" Value="6.97539462081129"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Sfx_Transición Play_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="306054700"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Sfx_Transición Play_01" ID="{F8E75F46-944B-4F9D-AE4E-44A0551EF445}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sfx_triunfo_01" ID="{D5B762E9-1F01-4B6F-84CB-273EC713C2D5}" ShortID="1002841269">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{DE8A041E-4549-4EA3-8349-17536B6B672D}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sfx_triunfo_01" ID="{EC4A35BA-4554-4CB4-BE37-02EE8E9D5A9A}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="2.06934240362812"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.49201530612245"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>sfx_triunfo_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="200539950"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sfx_triunfo_01" ID="{EC4A35BA-4554-4CB4-BE37-02EE8E9D5A9A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="fader" ID="{97A58EAE-8978-4D29-8697-B9058002691E}" ShortID="275740481">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{F0494348-75C4-4E68-96B1-5DDCA9F25B1F}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{29DE94D5-DB71-4F66-B784-1D48AC144083}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="sfx_fader hacia abajo_lento_01" ID="{99D9F21E-3553-40EE-8524-A862346DF0EB}" ShortID="269997789">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>43</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-150</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{5C2996F0-5883-46E1-A36F-AEAD422526CC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{DB880BC4-8DA0-43AB-898D-B429FD3B6A87}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_fader hacia abajo_lento_01" ID="{27D61CCA-CB38-4E85-996A-07685F6E8B83}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.35322658810514"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.36277461566456"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>sfx_fader hacia abajo_lento_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="133468324"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_fader hacia abajo_lento_01" ID="{27D61CCA-CB38-4E85-996A-07685F6E8B83}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_fader hacia arriba_lento_01" ID="{7F75E027-56F2-4B99-B10E-BC74C9A320CB}" ShortID="817122296">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>45</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_fader hacia arriba_lento_01" ID="{064B02D8-E9F4-45C7-B76D-874D2BC5F846}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.40379074155756"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.42658906041607"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>sfx_fader hacia arriba_lento_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="761287832"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_fader hacia arriba_lento_01" ID="{064B02D8-E9F4-45C7-B76D-874D2BC5F846}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="REbobinar el reloj" ID="{32444997-1D83-4F69-9101-D227702D2EF3}" ShortID="631422533">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>80</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A5B38DA8-17E2-4544-A130-E6F82A4F5717}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="REbobinar el reloj" ID="{D99435AA-55B5-4591-8CAF-AD41A0859E34}">
+							<PropertyList>
+								<Property Name="CrossfadeShape" Type="int16" Value="0"/>
+								<Property Name="FadeInShape" Type="int16" Value="4"/>
+								<Property Name="FadeOutShape" Type="int16" Value="4"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.33636124567474"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.14543529411765"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>REbobinar el reloj.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="240035180"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="REbobinar el reloj" ID="{D99435AA-55B5-4591-8CAF-AD41A0859E34}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Selección en el menu_02" ID="{9DDF80EB-3CCF-46EE-88EA-2BB0627679EF}" ShortID="464416641">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>46</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C901A563-752D-4AA7-AFC7-E9736BE1C47D}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="5"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>850</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{0B7DC600-19B8-4BD5-8C6D-A48D283683F9}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="400"/>
+											<Property Name="Min" Type="Real64" Value="-400"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Selección en el menu_02" ID="{4FF3FD0A-EBC2-4C21-AA64-7BA042D28A7D}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.161553327213238"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.161553327213238"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Selección en el menu_02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="710909376"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Selección en el menu_02" ID="{4FF3FD0A-EBC2-4C21-AA64-7BA042D28A7D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="115323305" Type="User" Language="SFX" Hash="{F4A186D3-FA16-5BE9-C01E-22633B0BBB69}">
+			<ShortName>Ecos_soundbank</ShortName>
+			<Path>Ecos_soundbank.bnk</Path>
+			<Media>
+				<File Id="24859787" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_objeto se rompe_02.wav</ShortName>
+					<CachePath>SFX/Sfx_objeto se rompe_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="34110746" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_Arrastrar objeto_03.wav</ShortName>
+					<CachePath>SFX/Sfx_Arrastrar objeto_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="51429071" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_objeto se rompe_03.wav</ShortName>
+					<CachePath>SFX/Sfx_objeto se rompe_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="65281317" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_Salto Madera_01.wav</ShortName>
+					<CachePath>SFX/Sfx_Salto Madera_01_A31334FC.wem</CachePath>
+				</File>
+				<File Id="99600105" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_objeto cae_02.wav</ShortName>
+					<CachePath>SFX/Sfx_objeto cae_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="105456541" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_Arrastrar objeto_04.wav</ShortName>
+					<CachePath>SFX/Sfx_Arrastrar objeto_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="133468324" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_fader hacia abajo_lento_01.wav</ShortName>
+					<CachePath>SFX/sfx_fader hacia abajo_lento_01_1491348E.wem</CachePath>
+				</File>
+				<File Id="175376852" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Selección en el menu.wav</ShortName>
+					<CachePath>SFX/Selección en el menu_E430401A.wem</CachePath>
+				</File>
+				<File Id="200539950" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_triunfo_01.wav</ShortName>
+					<CachePath>SFX/sfx_triunfo_01_91D014E8.wem</CachePath>
+				</File>
+				<File Id="217678762" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_Paso Piedra_03.wav</ShortName>
+					<CachePath>SFX/Sfx_Paso Piedra_03_7DC6E896.wem</CachePath>
+				</File>
+				<File Id="219682923" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_Arrastrar objeto_01.wav</ShortName>
+					<CachePath>SFX/Sfx_Arrastrar objeto_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="240035180" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>REbobinar el reloj.wav</ShortName>
+					<CachePath>SFX/REbobinar el reloj_FA627BBB.wem</CachePath>
+				</File>
+				<File Id="297838992" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_objeto cae_03.wav</ShortName>
+					<CachePath>SFX/Sfx_objeto cae_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="306054700" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_Transición Play_01.wav</ShortName>
+					<CachePath>SFX/Sfx_Transición Play_01_AEFF4918.wem</CachePath>
+				</File>
+				<File Id="362511487" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_objeto se rompe_04.wav</ShortName>
+					<CachePath>SFX/Sfx_objeto se rompe_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="378590965" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_Salto Piedra_04.wav</ShortName>
+					<CachePath>SFX/Sfx_Salto Piedra_04_E0E6177B.wem</CachePath>
+				</File>
+				<File Id="421731546" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_objeto se rearma_01.wav</ShortName>
+					<CachePath>SFX/Sfx_objeto se rearma_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="444294823" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_Salto Madera_02.wav</ShortName>
+					<CachePath>SFX/Sfx_Salto Madera_02_C61E66A0.wem</CachePath>
+				</File>
+				<File Id="455418334" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_Salto Piedra_05.wav</ShortName>
+					<CachePath>SFX/Sfx_Salto Piedra_05_C2A4D560.wem</CachePath>
+				</File>
+				<File Id="586289385" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_recoje_elemento para rebobinar_01.wav</ShortName>
+					<CachePath>SFX/sfx_recoje_elemento para rebobinar_01_62B57F00.wem</CachePath>
+				</File>
+				<File Id="631889464" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_Salto Piedra_01.wav</ShortName>
+					<CachePath>SFX/Sfx_Salto Piedra_01_A31A76D9.wem</CachePath>
+				</File>
+				<File Id="710909376" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Selección en el menu_02.wav</ShortName>
+					<CachePath>SFX/Selección en el menu_02_321E41B0.wem</CachePath>
+				</File>
+				<File Id="761287832" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_fader hacia arriba_lento_01.wav</ShortName>
+					<CachePath>SFX/sfx_fader hacia arriba_lento_01_2A0D8795.wem</CachePath>
+				</File>
+				<File Id="785965952" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_objeto se rearma_02.wav</ShortName>
+					<CachePath>SFX/Sfx_objeto se rearma_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="791730532" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_Salto Madera_03.wav</ShortName>
+					<CachePath>SFX/Sfx_Salto Madera_03_4C9E3980.wem</CachePath>
+				</File>
+				<File Id="832822028" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_objeto se rompe_01.wav</ShortName>
+					<CachePath>SFX/Sfx_objeto se rompe_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="838317921" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_objeto cae_01.wav</ShortName>
+					<CachePath>SFX/Sfx_objeto cae_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="849825206" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_Paso Piedra_01.wav</ShortName>
+					<CachePath>SFX/Sfx_Paso Piedra_01_27FF0AC6.wem</CachePath>
+				</File>
+				<File Id="882199415" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_menu_01.wav</ShortName>
+					<CachePath>SFX/mus_menu_01_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="954924331" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_objeto se rearma_04.wav</ShortName>
+					<CachePath>SFX/Sfx_objeto se rearma_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="966942796" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_objeto se rearma_03.wav</ShortName>
+					<CachePath>SFX/Sfx_objeto se rearma_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="979715660" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx_Arrastrar objeto_02.wav</ShortName>
+					<CachePath>SFX/Sfx_Arrastrar objeto_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="982854474" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_juego_general_01.wav</ShortName>
+					<CachePath>SFX/mus_juego_general_01_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="991346133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_checkpoint_01.wav</ShortName>
+					<CachePath>SFX/sfx_checkpoint_01_8624CC80.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2703320882" Name="Play_fader" DurationType="OneShot" DurationMin="0.008264167" DurationMax="0.025150623">
+					<MediaRefs>
+						<MediaRef Id="133468324"/>
+						<MediaRef Id="761287832"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="479855965" Name="Play_mus_juego_general_01" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="982854474"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3817767255" Name="Play_mus_menu_01" DurationType="OneShot" DurationMin="12" DurationMax="12">
+					<MediaRefs>
+						<MediaRef Id="882199415"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3997781668" Name="Play_object_arrastrar" DurationType="OneShot" DurationMin="1.3750113" DurationMax="4">
+					<MediaRefs>
+						<MediaRef Id="34110746"/>
+						<MediaRef Id="105456541"/>
+						<MediaRef Id="219682923"/>
+						<MediaRef Id="979715660"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3695288582" Name="Play_object_breaks" DurationType="OneShot" DurationMin="1.3750113" DurationMax="3">
+					<MediaRefs>
+						<MediaRef Id="24859787"/>
+						<MediaRef Id="51429071"/>
+						<MediaRef Id="362511487"/>
+						<MediaRef Id="832822028"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1481202888" Name="Play_object_ca_da" DurationType="OneShot" DurationMin="1.5" DurationMax="3">
+					<MediaRefs>
+						<MediaRef Id="99600105"/>
+						<MediaRef Id="297838992"/>
+						<MediaRef Id="838317921"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1754441394" Name="Play_object_rearma" DurationType="OneShot" DurationMin="0.75" DurationMax="3">
+					<MediaRefs>
+						<MediaRef Id="421731546"/>
+						<MediaRef Id="785965952"/>
+						<MediaRef Id="954924331"/>
+						<MediaRef Id="966942796"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="468308737" Name="Play_player_pasos_madera" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3640903788" Name="Play_player_pasos_piedra" DurationType="OneShot" DurationMin="0.18442903" DurationMax="0.44707713">
+					<MediaRefs>
+						<MediaRef Id="217678762"/>
+						<MediaRef Id="378590965"/>
+						<MediaRef Id="631889464"/>
+						<MediaRef Id="791730532"/>
+						<MediaRef Id="849825206"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1350033849" Name="Play_player_saltos_madera" DurationType="OneShot" DurationMin="0.18442903" DurationMax="0.44707713">
+					<MediaRefs>
+						<MediaRef Id="217678762"/>
+						<MediaRef Id="378590965"/>
+						<MediaRef Id="631889464"/>
+						<MediaRef Id="791730532"/>
+						<MediaRef Id="849825206"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4268487908" Name="Play_player_saltos_piedra" DurationType="OneShot" DurationMin="0.19001281" DurationMax="0.45262834">
+					<MediaRefs>
+						<MediaRef Id="65281317"/>
+						<MediaRef Id="444294823"/>
+						<MediaRef Id="455418334"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1980175037" Name="Play_REbobinar_el_reloj" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="240035180"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3837472255" Name="Play_Selecci_n_en_el_menu" DurationType="OneShot" DurationMin="0.069385454" DurationMax="0.087420195">
+					<MediaRefs>
+						<MediaRef Id="175376852"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="109528256" Name="Play_Selecci_n_en_el_menu_02" DurationType="OneShot" DurationMin="0.08332405" DurationMax="0.1322687">
+					<MediaRefs>
+						<MediaRef Id="710909376"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1364980114" Name="Play_sfx_checkpoint_01" DurationType="OneShot" DurationMin="1.3486936" DurationMax="1.6992474">
+					<MediaRefs>
+						<MediaRef Id="991346133"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1325776822" Name="Play_sfx_recoje_elemento_para_rebobinar_01" DurationType="OneShot" DurationMin="0.8683625" DurationMax="1.0940682">
+					<MediaRefs>
+						<MediaRef Id="586289385"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1157369115" Name="Play_Sfx_Transici_n_Play_01" DurationType="OneShot" DurationMin="5.4359784" DurationMax="6.848904">
+					<MediaRefs>
+						<MediaRef Id="306054700"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2612563789" Name="Play_sfx_triunfo_01" DurationType="OneShot" DurationMin="3.111032" DurationMax="3.9196546">
+					<MediaRefs>
+						<MediaRef Id="200539950"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1852669747" Name="Stop_mus_juego_general_01" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2611190625" Name="Stop_mus_menu_01" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3331308815" Name="Stop_REbobinar_el_reloj" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{AB9F0343-CD85-AB9E-58D8-B63D74A50185}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="822163944" Name="SS_Air_RPM"/>
+				<GameParameter Id="1029930033" Name="SS_Air_Fury"/>
+				<GameParameter Id="1351367891" Name="SS_Air_Fear"/>
+				<GameParameter Id="2648548617" Name="SS_Air_Month"/>
+				<GameParameter Id="3002758120" Name="SS_Air_Freefall"/>
+				<GameParameter Id="3074696722" Name="SS_Air_Size"/>
+				<GameParameter Id="3203397129" Name="SS_Air_TimeOfDay"/>
+				<GameParameter Id="3715662592" Name="SS_Air_Storm"/>
+				<GameParameter Id="3847924954" Name="SS_Air_Presence"/>
+				<GameParameter Id="4160247818" Name="SS_Air_Turbulence"/>
+			</GameParameters>
+			<AcousticTextures>
+				<AcousticTexture Id="504532776" Name="Brick">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="18"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="23"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="513139656" Name="Mountain">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="841620460" Name="Concrete">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="14"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1755085759" Name="Wood_Deep">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="1"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="8"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1873957695" Name="Anechoic">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1970351858" Name="Fabric">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="3"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="13"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="48"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="72"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2058049674" Name="Wood">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2412606308" Name="Carpet">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="46"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="45"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="76"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2637588553" Name="Tile">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="67"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="41"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2928161104" Name="Curtains">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="7"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="60"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="84"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3195498748" Name="Cork_Tiles">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="14"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="30"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="73"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3670307564" Name="Drywall">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="2"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4168643977" Name="Acoustic_Banner">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="37"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4262522749" Name="Wood_Bright">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="10"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="9"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+			</AcousticTextures>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{BC6CC8FF-7B7B-89F0-6B46-AFAC4263EC95}</FileHash>
+</SoundBanksInfo>

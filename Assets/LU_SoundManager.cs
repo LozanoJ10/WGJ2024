@@ -1,15 +1,51 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using AK.Wwise;
 
 public class LU_SoundManager : MonoBehaviour
 {
+   
+    [Header("musica")]
+
+    public AK.Wwise.Event musicaMenu;
+    public AK.Wwise.Event playMusicaFondo;
+    public AK.Wwise.Event stopMusicaFondo;
+
+    [Header("sfx")]
+    public AK.Wwise.Event playReboninar;
+    public AK.Wwise.Event stopReboninar;
+    public AK.Wwise.Event seleccionMenu;
+    public AK.Wwise.Event playFader;
+    public AK.Wwise.Event playSelect;
+
+
+   public void Start ()
+   {
+    PlayMusicaFondo(); 
+   }
+   public void Update ()
+     {
+        if (Input.GetKeyDown(KeyCode.B))
+        { 
+            Debug.Log("probando");
+            PlayFader();    
+        }
+    }
+
     // DEL AMBIENTE
-    public void MusicaFondo()
+    public void PlayMusicaFondo()
     {
         Debug.Log("LU :: Aqui Musica Fondo");
+        playMusicaFondo.Post(gameObject);
     }
-    public void MisicaMenuPausa()
+
+     public void StopMusicaFondo()
+    {
+        Debug.Log("LU :: Aqui Musica Fondo");
+        stopMusicaFondo.Post(gameObject);
+    }
+    public void MusicaMenuPausa()
     {
         Debug.Log("LU :: Aqui Musica Pausa");
     }
@@ -36,7 +72,24 @@ public class LU_SoundManager : MonoBehaviour
     public void SonidoMenuDarClicBotones()
     {
         Debug.Log("LU :: Aqui Sonido SONIDO General para seleccionar opciones Menu o boton de pause");
+
+        seleccionMenu.Post (gameObject);
     }
+
+    public void PlayFader()
+    {
+        Debug.Log("pruebafader");
+
+        playFader.Post (gameObject);
+    }
+
+    public void PlaySelect()
+    {
+        Debug.Log("pruebaSelect");
+
+        playSelect.Post (gameObject);
+    }
+
 
     // DE MECANICAS
 
@@ -50,11 +103,19 @@ public class LU_SoundManager : MonoBehaviour
         Debug.Log("LU :: Aqui Sonido Usar Slider - Objetos Moviles");
     }
 
-    public void SonidoRetrocederTiempo()
+    public void PlaySonidoRetrocederTiempo()
     {
         Debug.Log("LU :: Aqui Sonido Retroceder Tiempo");
         // Este funcionara mientras se esta usando la mecancia, supongo que la forma seria darle un STOP cuando deje de usarse
         // En el codigo que ejecuta este comnado, coloque el punto donde se debe pausar. TAMBIEN EN LA CONSOLA te apunta donde.
+       
+        playReboninar.Post(gameObject);
+    }
+     public void StopSonidoRetrocederTiempo()
+    {
+        Debug.Log("LU :: Aqui Sonido Retroceder Tiempo");
+       
+        stopReboninar.Post(gameObject);
     }
 
     // DE ENEMIGO JEFE

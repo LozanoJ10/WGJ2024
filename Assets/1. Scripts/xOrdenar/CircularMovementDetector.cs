@@ -1,3 +1,4 @@
+
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -35,13 +36,11 @@ public class CircularMovementDetector : MonoBehaviour
     public LU_SoundManager implementacionSonido;
     public bool dioClick = false;
 
-
-    //Juan estuvo aqui
-
     void Awake()
     {
         vhsEfecto.SetActive(false);
     }
+
     void Update()
     {
         ScanForGrupoRewind();
@@ -57,23 +56,33 @@ public class CircularMovementDetector : MonoBehaviour
             autoRotate = false; // Disable auto rotation when the user starts dragging
 
             foreach (var controlTiempo in controlTiempos)
-            {                
-                    startPosition = rectTransform.anchoredPosition;
-                    lastPosition = startPosition;
+            {
+                startPosition = rectTransform.anchoredPosition;
+                lastPosition = startPosition;
             }
 
             isDragging = true;
             lastTime = Time.time; // Store the time when dragging starts
-            ////Debug.Log("Arrastre iniciado.");
-            ///
 
             vhsEfecto.SetActive(true);
-            //
-            
+
+            if (!dioClick)
+            {
+                implementacionSonido.PlaySonidoRetrocederTiempo();
+                Debug.Log("Reproducir Audio");
+                dioClick = true;
+            }
         }
 
         if (Input.GetMouseButtonUp(0))
         {
+            if (dioClick)
+            {
+                implementacionSonido.StopSonidoRetrocederTiempo();
+                Debug.Log("Detener Audio");
+                dioClick = false;
+            }
+
             isDragging = false;
             autoRotate = true; // Re-enable auto rotation when the user stops dragging
 
@@ -82,19 +91,12 @@ public class CircularMovementDetector : MonoBehaviour
             hourAngle = -manHor.transform.localEulerAngles.z;
 
             lastTime = Time.time; // Reset lastTime to avoid jumps
-            ////Debug.Log("Arrastre detenido.");
-            ///
 
             vhsEfecto.SetActive(false);
-
-
         }
 
         if (isDragging)
         {
-            if(!dioClick)
-                implementacionSonido.SonidoRetrocederTiempo();
-
             Vector2 currentPosition = rectTransform.anchoredPosition;
             Vector2 direction = currentPosition - lastPosition;
 
@@ -112,7 +114,6 @@ public class CircularMovementDetector : MonoBehaviour
                 // Detect positive or negative angle to trigger actions
                 if (angle > 0)
                 {
-                    ////Debug.Log("Movimiento en sentido horario (manecillas del reloj). �ngulo: " + angle);
                     foreach (var controlTiempo in controlTiempos)
                     {
                         if (!controlTiempo.isRecording)
@@ -123,7 +124,6 @@ public class CircularMovementDetector : MonoBehaviour
                 }
                 else if (angle < 0)
                 {
-                    ////Debug.Log("Movimiento en sentido antihorario (contra las manecillas del reloj). �ngulo: " + angle);
                     foreach (var controlTiempo in controlTiempos)
                     {
                         if (!controlTiempo.isRecording)
@@ -237,3 +237,5 @@ public class CircularMovementDetector : MonoBehaviour
         }
     }
 }
+
+

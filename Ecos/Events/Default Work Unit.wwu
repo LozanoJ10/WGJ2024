@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_object_arrastrar" ID="{25A9E775-3BAB-4192-B9B6-0EB6F2A786F7}">
+					<ChildrenList>
+						<Action Name="" ID="{BCBE51A6-08C7-4573-88A8-A2286ADF7C2C}" ShortID="345821714">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="object_arrastrar" ID="{C773269D-FAB4-4D7D-AEB6-ACDDD0EBDC32}" WorkUnitID="{B239EE58-6147-452E-B4C2-473016892285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_object_breaks" ID="{CF6DAFC9-65FF-4491-9B47-DEC8BAD764AD}">
+					<ChildrenList>
+						<Action Name="" ID="{6C95BE6B-98D6-46A5-B2B5-E942D4E43D50}" ShortID="497096904">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="object_breaks" ID="{BF7DA8D5-5F6E-4AC9-8080-A1F8A29FA1D4}" WorkUnitID="{B239EE58-6147-452E-B4C2-473016892285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_object_ca_da" ID="{1BC297D4-A4C2-4FC3-A18B-A4C60705A054}">
+					<ChildrenList>
+						<Action Name="" ID="{68D017DC-DB02-4A96-9C3A-67883FD14560}" ShortID="389870253">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="object_caída" ID="{69A488D3-5A4B-4041-B903-AD2E57019271}" WorkUnitID="{B239EE58-6147-452E-B4C2-473016892285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_object_rearma" ID="{ED81CAC4-09FC-4876-B388-57CA38021753}">
+					<ChildrenList>
+						<Action Name="" ID="{5D972B56-82DC-4752-82A3-47CAB4B64D82}" ShortID="730837024">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="object_rearma" ID="{C01896C7-138D-40EE-B6CF-2D50085E280C}" WorkUnitID="{B239EE58-6147-452E-B4C2-473016892285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_player_pasos_madera" ID="{4F802120-2390-463B-A527-7DACD7806043}"/>
+				<Event Name="Play_player_pasos_piedra" ID="{616C63EF-BF93-4D01-85AB-FCF9A5B763BF}">
+					<ChildrenList>
+						<Action Name="" ID="{DBAB38D9-59FC-4C9E-B164-D0C9A76BF7FF}" ShortID="1010466023">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_pasos_piedra" ID="{8BE7DF18-4D21-4B75-A9D3-B440E47B97BD}" WorkUnitID="{5B6F4AA9-8948-4145-AF80-453FEA18081D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_player_saltos_madera" ID="{54B62567-219E-40A8-860A-6EC2DC29689A}">
+					<ChildrenList>
+						<Action Name="" ID="{6855CC1F-458B-44C3-85D4-DF7CEC6B088E}" ShortID="472957221">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_pasos_piedra" ID="{8BE7DF18-4D21-4B75-A9D3-B440E47B97BD}" WorkUnitID="{5B6F4AA9-8948-4145-AF80-453FEA18081D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_player_saltos_piedra" ID="{ECDA2257-5AD0-419F-A365-0E0A5B13E7E3}">
+					<ChildrenList>
+						<Action Name="" ID="{119EC8B1-A00E-4835-8546-257A74D17E71}" ShortID="107055913">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_saltos_piedra" ID="{81248FC3-9505-4A30-965B-BC3DB1CBE255}" WorkUnitID="{5B6F4AA9-8948-4145-AF80-453FEA18081D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_mus_juego_general_01" ID="{F80150BA-4703-488D-8295-A2E36D10321D}">
+					<ChildrenList>
+						<Action Name="" ID="{4276C1AB-995C-4C3A-A81D-7D37E961D4A4}" ShortID="371090065">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="game_music" ID="{0E7E6C68-CD96-419D-BE79-51CB0348D5E8}" WorkUnitID="{D41CF99B-7775-43AA-B9F8-B41525CF996A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_mus_juego_general_01" ID="{6D978AF5-5447-445F-A76A-6702DA397D9E}">
+					<ChildrenList>
+						<Action Name="" ID="{568BC25D-1908-4AFB-AB65-6AD175203218}" ShortID="69886976">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mus_juego_general_01" ID="{2EC693B3-5535-4D2C-9384-CEE3C99E263C}" WorkUnitID="{D41CF99B-7775-43AA-B9F8-B41525CF996A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_mus_menu_01" ID="{7D03D155-021E-45F8-BCAA-D5E0DC150216}">
+					<ChildrenList>
+						<Action Name="" ID="{FAD93D38-1D5E-4719-BEC0-43FB936C18D4}" ShortID="996620645">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mus_menu_01" ID="{4018151C-BC92-4BE2-900E-060F3CFAD91B}" WorkUnitID="{720F9628-16CC-4860-856D-6332241AB7A8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_mus_menu_01" ID="{90668E52-659B-4C08-B870-F4FB16661603}">
+					<ChildrenList>
+						<Action Name="" ID="{DC4819A8-C63F-4EE8-AE8C-36C3EA9080B5}" ShortID="667178075">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mus_menu_01" ID="{4018151C-BC92-4BE2-900E-060F3CFAD91B}" WorkUnitID="{720F9628-16CC-4860-856D-6332241AB7A8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_REbobinar_el_reloj" ID="{3B4D9AE8-A4B1-4E75-9AD9-A55977CB90F4}">
+					<ChildrenList>
+						<Action Name="" ID="{7D16CF35-5234-44A1-8E3F-EF7E552CA5EC}" ShortID="243921085">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="REbobinar el reloj" ID="{32444997-1D83-4F69-9101-D227702D2EF3}" WorkUnitID="{9B5B6373-3284-49F2-B115-89892F8998FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Selecci_n_en_el_menu" ID="{204AF4C0-681F-47F3-A714-D5F9D0FABF3A}">
+					<ChildrenList>
+						<Action Name="" ID="{7E5EB2F4-222F-49C3-86E4-58A313B4FB32}" ShortID="670847426">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Selección en el menu" ID="{3AA9AE14-40CF-4CE1-AAA4-C82D328E8F3B}" WorkUnitID="{9B5B6373-3284-49F2-B115-89892F8998FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_checkpoint_01" ID="{197858C8-6600-4843-BB39-7B74EBE75CC6}">
+					<ChildrenList>
+						<Action Name="" ID="{6B94D38F-C13E-48CD-9610-ED718236B074}" ShortID="415595357">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_checkpoint_01" ID="{A084F9C9-3BAE-4FBE-BFAD-EFDE70AA1B4E}" WorkUnitID="{9B5B6373-3284-49F2-B115-89892F8998FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_recoje_elemento_para_rebobinar_01" ID="{8F43D8E1-E7DA-4012-B039-89D0089A1C7A}">
+					<ChildrenList>
+						<Action Name="" ID="{A889E057-9114-4DAE-A46C-F1C383671138}" ShortID="995142123">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_recoje_elemento para rebobinar_01" ID="{14FD9B39-552B-478E-A998-3EA3CC25CC89}" WorkUnitID="{9B5B6373-3284-49F2-B115-89892F8998FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sfx_Transici_n_Play_01" ID="{4F08B020-E30B-408D-8526-10DE8C51EFF0}">
+					<ChildrenList>
+						<Action Name="" ID="{08E36350-6F07-40B4-B41A-72E82E9247E4}" ShortID="71927355">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sfx_Transición Play_01" ID="{50EE4AB5-06F1-444F-AE46-635EAA96CD01}" WorkUnitID="{9B5B6373-3284-49F2-B115-89892F8998FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_triunfo_01" ID="{1B40717E-F7C0-476B-871A-3A0EB5DC3555}">
+					<ChildrenList>
+						<Action Name="" ID="{1D29E4E4-48B3-47E6-9EB2-56B583C1FB59}" ShortID="1006732024">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_triunfo_01" ID="{D5B762E9-1F01-4B6F-84CB-273EC713C2D5}" WorkUnitID="{9B5B6373-3284-49F2-B115-89892F8998FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_fader" ID="{FFC503A6-6667-4F32-89E3-84AED57E0BC2}">
+					<ChildrenList>
+						<Action Name="" ID="{C3D4313E-574D-4192-A7EB-2E60A07D1CA8}" ShortID="108521994">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fader" ID="{97A58EAE-8978-4D29-8697-B9058002691E}" WorkUnitID="{9B5B6373-3284-49F2-B115-89892F8998FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_player_arrastrar_obj" ID="{741E5189-A3C2-4ABC-8B51-E38C446BBF9E}">
+					<ChildrenList>
+						<Action Name="" ID="{32902299-0772-48CD-9627-FF3F0A3C909C}" ShortID="392804057">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_arrastrar_obj" ID="{8E054572-0EBF-494A-BE79-415CE6DD3FD6}" WorkUnitID="{5B6F4AA9-8948-4145-AF80-453FEA18081D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_REbobinar_el_reloj" ID="{1CF64043-1DC6-4AF5-942E-92C0D7BFA3F6}">
+					<ChildrenList>
+						<Action Name="" ID="{BF165097-48AC-4EBC-85A4-B45BB30FD18D}" ShortID="563708335">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="REbobinar el reloj" ID="{32444997-1D83-4F69-9101-D227702D2EF3}" WorkUnitID="{9B5B6373-3284-49F2-B115-89892F8998FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Selecci_n_en_el_menu_02" ID="{CCE7EF29-10CF-4154-B34D-09257AA86AEA}">
+					<ChildrenList>
+						<Action Name="" ID="{E3E48801-37F6-4268-BEBA-EF179776EF8D}" ShortID="857937156">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Selección en el menu_02" ID="{9DDF80EB-3CCF-46EE-88EA-2BB0627679EF}" WorkUnitID="{9B5B6373-3284-49F2-B115-89892F8998FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

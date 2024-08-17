@@ -1,0 +1,59 @@
+Event	ID	Name			Wwise Object Path	Notes
+	109528256	Play_Selecci_n_en_el_menu_02			\Default Work Unit\Play_Selecci_n_en_el_menu_02	
+	468308737	Play_player_pasos_madera			\Default Work Unit\Play_player_pasos_madera	
+	479855965	Play_mus_juego_general_01			\Default Work Unit\Play_mus_juego_general_01	
+	1157369115	Play_Sfx_Transici_n_Play_01			\Default Work Unit\Play_Sfx_Transici_n_Play_01	
+	1325776822	Play_sfx_recoje_elemento_para_rebobinar_01			\Default Work Unit\Play_sfx_recoje_elemento_para_rebobinar_01	
+	1350033849	Play_player_saltos_madera			\Default Work Unit\Play_player_saltos_madera	
+	1364980114	Play_sfx_checkpoint_01			\Default Work Unit\Play_sfx_checkpoint_01	
+	1481202888	Play_object_ca_da			\Default Work Unit\Play_object_ca_da	
+	1754441394	Play_object_rearma			\Default Work Unit\Play_object_rearma	
+	1852669747	Stop_mus_juego_general_01			\Default Work Unit\Stop_mus_juego_general_01	
+	1980175037	Play_REbobinar_el_reloj			\Default Work Unit\Play_REbobinar_el_reloj	
+	2611190625	Stop_mus_menu_01			\Default Work Unit\Stop_mus_menu_01	
+	2612563789	Play_sfx_triunfo_01			\Default Work Unit\Play_sfx_triunfo_01	
+	2703320882	Play_fader			\Default Work Unit\Play_fader	
+	3331308815	Stop_REbobinar_el_reloj			\Default Work Unit\Stop_REbobinar_el_reloj	
+	3640903788	Play_player_pasos_piedra			\Default Work Unit\Play_player_pasos_piedra	
+	3695288582	Play_object_breaks			\Default Work Unit\Play_object_breaks	
+	3817767255	Play_mus_menu_01			\Default Work Unit\Play_mus_menu_01	
+	3837472255	Play_Selecci_n_en_el_menu			\Default Work Unit\Play_Selecci_n_en_el_menu	
+	3997781668	Play_object_arrastrar			\Default Work Unit\Play_object_arrastrar	
+	4268487908	Play_player_saltos_piedra			\Default Work Unit\Play_player_saltos_piedra	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	24859787	Sfx_objeto se rompe_02	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_objeto se rompe_02_818F3B66.wem		\Actor-Mixer Hierarchy\Interactive objects\object_breaks\Sfx_objeto se rompe_02		396996
+	34110746	Sfx_Arrastrar objeto_03	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_Arrastrar objeto_03_818F3B66.wem		\Actor-Mixer Hierarchy\Interactive objects\object_arrastrar\Sfx_Arrastrar objeto_03		242648
+	51429071	Sfx_objeto se rompe_03	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_objeto se rompe_03_818F3B66.wem		\Actor-Mixer Hierarchy\Interactive objects\object_breaks\Sfx_objeto se rompe_03		529296
+	65281317	Sfx_Salto Madera_01	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_Salto Madera_01_A31334FC.wem		\Actor-Mixer Hierarchy\Niña\player_saltos_piedra\Sfx_Salto Madera_01		52468
+	99600105	Sfx_objeto cae_02	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_objeto cae_02_818F3B66.wem		\Actor-Mixer Hierarchy\Interactive objects\object_caída\Sfx_objeto cae_02		352896
+	105456541	Sfx_Arrastrar objeto_04	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_Arrastrar objeto_04_818F3B66.wem		\Actor-Mixer Hierarchy\Interactive objects\object_arrastrar\Sfx_Arrastrar objeto_04		463148
+	133468324	sfx_fader hacia abajo_lento_01	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\sfx_fader hacia abajo_lento_01_1491348E.wem		\Actor-Mixer Hierarchy\UI\fader\sfx_fader hacia abajo_lento_01		938
+	175376852	Selección en el menu	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Selección en el menu_E430401A.wem		\Actor-Mixer Hierarchy\UI\Selección en el menu		30760
+	200539950	sfx_triunfo_01	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\sfx_triunfo_01_91D014E8.wem		\Actor-Mixer Hierarchy\UI\sfx_triunfo_01		308092
+	217678762	Sfx_Paso Piedra_03	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_Paso Piedra_03_7DC6E896.wem		\Actor-Mixer Hierarchy\Niña\player_pasos_piedra\Sfx_Paso Piedra_03		28320
+	219682923	Sfx_Arrastrar objeto_01	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_Arrastrar objeto_01_818F3B66.wem		\Actor-Mixer Hierarchy\Interactive objects\object_arrastrar\Sfx_Arrastrar objeto_01		705696
+	240035180	REbobinar el reloj	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\REbobinar el reloj_FA627BBB.wem		\Actor-Mixer Hierarchy\UI\REbobinar el reloj		142816
+	297838992	Sfx_objeto cae_03	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_objeto cae_03_818F3B66.wem		\Actor-Mixer Hierarchy\Interactive objects\object_caída\Sfx_objeto cae_03		529296
+	306054700	Sfx_Transición Play_01	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_Transición Play_01_AEFF4918.wem		\Actor-Mixer Hierarchy\UI\Sfx_Transición Play_01		1076432
+	362511487	Sfx_objeto se rompe_04	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_objeto se rompe_04_818F3B66.wem		\Actor-Mixer Hierarchy\Interactive objects\object_breaks\Sfx_objeto se rompe_04		529296
+	378590965	Sfx_Salto Piedra_04	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_Salto Piedra_04_E0E6177B.wem		\Actor-Mixer Hierarchy\Niña\player_pasos_piedra\Sfx_Salto Piedra_04		17132
+	421731546	Sfx_objeto se rearma_01	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_objeto se rearma_01_818F3B66.wem		\Actor-Mixer Hierarchy\Interactive objects\object_rearma\Sfx_objeto se rearma_01		529296
+	444294823	Sfx_Salto Madera_02	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_Salto Madera_02_C61E66A0.wem		\Actor-Mixer Hierarchy\Niña\player_saltos_piedra\Sfx_Salto Madera_02		43484
+	455418334	Sfx_Salto Piedra_05	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_Salto Piedra_05_C2A4D560.wem		\Actor-Mixer Hierarchy\Niña\player_saltos_piedra\Sfx_Salto Piedra_05		50608
+	586289385	sfx_recoje_elemento para rebobinar_01	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\sfx_recoje_elemento para rebobinar_01_62B57F00.wem		\Actor-Mixer Hierarchy\UI\sfx_recoje_elemento para rebobinar_01		86064
+	631889464	Sfx_Salto Piedra_01	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_Salto Piedra_01_A31A76D9.wem		\Actor-Mixer Hierarchy\Niña\player_pasos_piedra\Sfx_Salto Piedra_01		44224
+	710909376	Selección en el menu_02	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Selección en el menu_02_321E41B0.wem		\Actor-Mixer Hierarchy\UI\Selección en el menu_02		35460
+	761287832	sfx_fader hacia arriba_lento_01	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\sfx_fader hacia arriba_lento_01_2A0D8795.wem		\Actor-Mixer Hierarchy\UI\fader\sfx_fader hacia arriba_lento_01		2108
+	785965952	Sfx_objeto se rearma_02	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_objeto se rearma_02_818F3B66.wem		\Actor-Mixer Hierarchy\Interactive objects\object_rearma\Sfx_objeto se rearma_02		352896
+	791730532	Sfx_Salto Madera_03	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_Salto Madera_03_4C9E3980.wem		\Actor-Mixer Hierarchy\Niña\player_pasos_piedra\Sfx_Salto Madera_03		53960
+	832822028	Sfx_objeto se rompe_01	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_objeto se rompe_01_818F3B66.wem		\Actor-Mixer Hierarchy\Interactive objects\object_breaks\Sfx_objeto se rompe_01		242648
+	838317921	Sfx_objeto cae_01	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_objeto cae_01_818F3B66.wem		\Actor-Mixer Hierarchy\Interactive objects\object_caída\Sfx_objeto cae_01		264696
+	849825206	Sfx_Paso Piedra_01	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_Paso Piedra_01_27FF0AC6.wem		\Actor-Mixer Hierarchy\Niña\player_pasos_piedra\Sfx_Paso Piedra_01		35136
+	882199415	mus_menu_01	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\mus_menu_01_FBC78EF0.wem		\Interactive Music Hierarchy\music menu\music_menu\mus_menu_01\mus_menu_01		2116896
+	954924331	Sfx_objeto se rearma_04	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_objeto se rearma_04_818F3B66.wem		\Actor-Mixer Hierarchy\Interactive objects\object_rearma\Sfx_objeto se rearma_04		132396
+	966942796	Sfx_objeto se rearma_03	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_objeto se rearma_03_818F3B66.wem		\Actor-Mixer Hierarchy\Interactive objects\object_rearma\Sfx_objeto se rearma_03		352896
+	979715660	Sfx_Arrastrar objeto_02	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\Sfx_Arrastrar objeto_02_818F3B66.wem		\Actor-Mixer Hierarchy\Interactive objects\object_arrastrar\Sfx_Arrastrar objeto_02		529296
+	982854474	mus_juego_general_01	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\mus_juego_general_01_FBC78EF0.wem		\Interactive Music Hierarchy\Game music\game_music\mus_juego_general_01\mus_juego_general_01		18522096
+	991346133	sfx_checkpoint_01	Y:\Documents\GitHub\WGJ2024\Ecos\.cache\Mac\SFX\sfx_checkpoint_01_8624CC80.wem		\Actor-Mixer Hierarchy\UI\sfx_checkpoint_01		267140
+

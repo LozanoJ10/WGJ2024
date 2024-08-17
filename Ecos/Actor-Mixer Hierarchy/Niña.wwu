@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5B6F4AA9-8948-4145-AF80-453FEA18081D}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Niña" ID="{5B6F4AA9-8948-4145-AF80-453FEA18081D}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="player_pasos_piedra" ID="{8BE7DF18-4D21-4B75-A9D3-B440E47B97BD}" ShortID="708115658">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sfx_Salto Madera_03" ID="{F347BC87-3605-49D3-BC7F-6BD87D38BCF3}" ShortID="878399959">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-660</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sfx_Salto Madera_03" ID="{72342368-4CAD-4E61-B320-F29CAD742DB4}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.305362676079429"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.0893919063090818"/>
+										<Property Name="LoopEnd" Type="Real64" Value="0.379997401738473"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0764793732402987"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.381842049319728"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sfx_Salto Madera_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="791730532"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sfx_Salto Madera_03" ID="{72342368-4CAD-4E61-B320-F29CAD742DB4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sfx_Salto Piedra_01" ID="{9D1E39E2-B4A8-4157-8CAA-86F740054226}" ShortID="854097878">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>34</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-790</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sfx_Salto Piedra_01" ID="{98827686-5AB7-48EC-B95A-76545EEB1F1F}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.147289390531276"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.111825192802057"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.361979166666667"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sfx_Salto Piedra_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="631889464"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sfx_Salto Piedra_01" ID="{98827686-5AB7-48EC-B95A-76545EEB1F1F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sfx_Salto Piedra_04" ID="{8431D97B-6593-4BBA-907F-9134646CC8B7}" ShortID="665990230">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>66</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-1120</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sfx_Salto Piedra_04" ID="{0B5F702F-C00F-4830-952A-E28839C0619B}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0965757218459123"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0835490734425732"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.180124795288486"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sfx_Salto Piedra_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="378590965"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sfx_Salto Piedra_04" ID="{0B5F702F-C00F-4830-952A-E28839C0619B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sfx_Paso Piedra_01" ID="{0134E8BA-EDF1-477F-995D-E5E6F50DE71A}" ShortID="24374989">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>24</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-510</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sfx_Paso Piedra_01" ID="{2A4B0F2E-E5FA-4A9F-8A19-CE742695E503}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00759562389770724"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.13678817653168"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.130143749016316"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.328782005857898"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sfx_Paso Piedra_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="849825206"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sfx_Paso Piedra_01" ID="{2A4B0F2E-E5FA-4A9F-8A19-CE742695E503}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sfx_Paso Piedra_03" ID="{47D04DCB-1384-4AC9-8E56-83F7CA1D3858}" ShortID="735716461">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>16</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-400</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sfx_Paso Piedra_03" ID="{A6B21CC1-8C76-4C43-A357-DDE06A5FDEFB}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.160010086403885"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.122107969151671"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.282118055555556"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sfx_Paso Piedra_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="217678762"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sfx_Paso Piedra_03" ID="{A6B21CC1-8C76-4C43-A357-DDE06A5FDEFB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="player_saltos_piedra" ID="{81248FC3-9505-4A30-965B-BC3DB1CBE255}" ShortID="276779991">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sfx_Salto Piedra_05" ID="{2C16ECF8-A8A6-4E3E-8435-629D108B2C72}" ShortID="409689570">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>70</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>710</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sfx_Salto Piedra_05" ID="{680A84C7-B945-4859-9ADC-DDF31B6FEE0B}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.286346758069123"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.658097686375322"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.944444444444445"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sfx_Salto Piedra_05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="455418334"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sfx_Salto Piedra_05" ID="{680A84C7-B945-4859-9ADC-DDF31B6FEE0B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sfx_Salto Madera_02" ID="{52065855-74E4-4C0D-8C41-776EEE8B123E}" ShortID="939733459">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>24</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-200</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sfx_Salto Madera_02" ID="{0B712199-F49D-45BE-98FD-33A05A1BACEE}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.2459453548986"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.311696658097686"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.305269922879178"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.551215277777778"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sfx_Salto Madera_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="444294823"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sfx_Salto Madera_02" ID="{0B712199-F49D-45BE-98FD-33A05A1BACEE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sfx_Salto Madera_01" ID="{3B329D0A-8679-4DD3-8E90-97AFC932438F}" ShortID="624709604">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>36</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-730</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sfx_Salto Madera_01" ID="{DB0482E5-366D-4A74-B31C-6DE070713A1E}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.296903393652996"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.11696809657882"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.110219937160811"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.407123330813807"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sfx_Salto Madera_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="65281317"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sfx_Salto Madera_01" ID="{DB0482E5-366D-4A74-B31C-6DE070713A1E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="player_arrastrar_obj" ID="{8E054572-0EBF-494A-BE79-415CE6DD3FD6}" ShortID="230329405">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sfx_Arrastrar objeto_01" ID="{6D6BFFE5-6AE2-45B8-9D39-F4092DB8B71B}" ShortID="703063138">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sfx_Arrastrar objeto_01" ID="{1D85997B-AC9D-435F-B94E-C573C33647E3}">
+									<Language>SFX</Language>
+									<AudioFile>Sfx_Arrastrar objeto_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="219682923"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sfx_Arrastrar objeto_01" ID="{1D85997B-AC9D-435F-B94E-C573C33647E3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 356e39a2690f44db289445d7187fcfe5, type: 3}
+  m_Name: 204AF4C0-681F-47F3-A714-D5F9D0FABF3A
+  m_EditorClassIdentifier: 
+  objectName: Play_Selecci_n_en_el_menu
+  id: 3837472255
+  guid: 204AF4C0-681F-47F3-A714-D5F9D0FABF3A
