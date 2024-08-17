@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4904052384336528026}
   - component: {fileID: 7880592318669475798}
   m_Layer: 0
-  m_Name: "ObjetoDa\xF1o"
+  m_Name: ObjetoDano
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

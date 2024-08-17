@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjetoDaño : MonoBehaviour
+public class ObjetoDano : MonoBehaviour
 {
     public LU_SoundManager implementacionSonido;
 
