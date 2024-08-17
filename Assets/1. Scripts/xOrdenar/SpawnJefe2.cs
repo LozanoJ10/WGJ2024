@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 public class spawnJefe2 : MonoBehaviour
 {
+	/*
     public Transform puntoSpawnJefe_2;
     public GameObject jefePrefab; // Variable para el prefab del jefe
     public bool spawneo = false;
@@ -84,4 +85,5 @@ public class spawnJefe2 : MonoBehaviour
             yield return new WaitForSeconds(0.3f);
         }
     }
+	*/
 }
