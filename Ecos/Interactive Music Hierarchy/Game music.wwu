@@ -64,6 +64,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="mus_juego_general_01" ID="{C32697B7-4C1B-4146-B086-B03781627585}" ShortID="208244081">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>

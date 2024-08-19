@@ -5,10 +5,10 @@ public class MovimientoObjetoTiempo : MonoBehaviour
 {
     public Transform punto1; // Primer punto
     public Transform punto2; // Segundo punto
-    public float velocidad = 1f; // Velocidad máxima de movimiento
-    public float tiempoModificador = 0f; // Controla la dirección del movimiento, de -1 a 1
+    public float velocidad = 1f; // Velocidad mï¿½xima de movimiento
+    public float tiempoModificador = 0f; // Controla la direcciï¿½n del movimiento, de -1 a 1
 
-    private Vector3 objetivoActual; // Posición del objetivo actual
+    private Vector3 objetivoActual; // Posiciï¿½n del objetivo actual
     public Slider sliderVelocidad;
 
     public bool detectadoPorPlayer = false;
@@ -26,7 +26,7 @@ public class MovimientoObjetoTiempo : MonoBehaviour
     void Start()
     {
         sliderVelocidad = null;
-        objetivoActual = punto2.position; // Comenzamos moviéndonos hacia punto2
+        objetivoActual = punto2.position; // Comenzamos moviï¿½ndonos hacia punto2
         rangoDeteccion = GameObject.Find("RangoDeteccionJugador").GetComponent<RengoDeteccion>();
     }
 
@@ -104,11 +104,11 @@ public class MovimientoObjetoTiempo : MonoBehaviour
     {
         //if (!dioClick)
         //{ 
-            implementacionSonido.SonidoSeleccionObjeto();
+            implementacionSonido.SonidoSeleccionObjetoTiempo();
             //dioClick = true;
         //}
 
-        // Verificar si el clic pasó a través del objeto transparente
+        // Verificar si el clic pasï¿½ a travï¿½s del objeto transparente
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit[] hits = Physics.RaycastAll(ray);
 
@@ -116,16 +116,16 @@ public class MovimientoObjetoTiempo : MonoBehaviour
         {
             if (hit.collider.gameObject != gameObject) // Ignorar el objeto actual
             {
-                Debug.Log("Objeto clickeado detrás del transparente: " + hit.collider.name);
+                Debug.Log("Objeto clickeado detrï¿½s del transparente: " + hit.collider.name);
 
-                // Aquí puedes manejar el clic en el objeto detrás del transparente
+                // Aquï¿½ puedes manejar el clic en el objeto detrï¿½s del transparente
                 MovimientoObjetoTiempo clickedObject = hit.collider.GetComponent<MovimientoObjetoTiempo>();
                 if (clickedObject != null)
                 {
-                    clickedObject.AsignarSliderAlObjeto(); // Asignar el slider al objeto que está detrás
+                    clickedObject.AsignarSliderAlObjeto(); // Asignar el slider al objeto que estï¿½ detrï¿½s
                 }
 
-                return; // Salir del método una vez que se haya encontrado y manejado el clic en el objeto detrás
+                return; // Salir del mï¿½todo una vez que se haya encontrado y manejado el clic en el objeto detrï¿½s
             }
         }
 

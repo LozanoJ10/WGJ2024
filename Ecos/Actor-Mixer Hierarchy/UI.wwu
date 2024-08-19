@@ -421,6 +421,11 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -437,8 +442,8 @@
 								<Property Name="FadeInShape" Type="int16" Value="4"/>
 								<Property Name="FadeOutShape" Type="int16" Value="4"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimBegin" Type="Real64" Value="1.33636124567474"/>
-								<Property Name="TrimEnd" Type="Real64" Value="2.14543529411765"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.17892179930796"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.24232110726644"/>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>REbobinar el reloj.wav</AudioFile>

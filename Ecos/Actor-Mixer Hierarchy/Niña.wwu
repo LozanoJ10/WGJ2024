@@ -7,7 +7,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>2</Value>
+								<Value>-9</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -35,6 +35,11 @@
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-11</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>56</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -84,6 +89,11 @@
 										<Value>-12</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>36</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -127,6 +137,11 @@
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>34</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -213,6 +228,11 @@
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>39</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -397,40 +417,6 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Sfx_Salto Madera_01" ID="{DB0482E5-366D-4A74-B31C-6DE070713A1E}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="player_arrastrar_obj" ID="{8E054572-0EBF-494A-BE79-415CE6DD3FD6}" ShortID="230329405">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="Sfx_Arrastrar objeto_01" ID="{6D6BFFE5-6AE2-45B8-9D39-F4092DB8B71B}" ShortID="703063138">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05B1D4A1-2858-422A-9410-3C2EBEEE1688}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Sfx_Arrastrar objeto_01" ID="{1D85997B-AC9D-435F-B94E-C573C33647E3}">
-									<Language>SFX</Language>
-									<AudioFile>Sfx_Arrastrar objeto_01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="219682923"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Sfx_Arrastrar objeto_01" ID="{1D85997B-AC9D-435F-B94E-C573C33647E3}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

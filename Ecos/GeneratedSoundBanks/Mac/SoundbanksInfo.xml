@@ -9,21 +9,21 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="115323305" Type="User" Language="SFX" Hash="{F4A186D3-FA16-5BE9-C01E-22633B0BBB69}">
+		<SoundBank Id="115323305" Type="User" Language="SFX" Hash="{6A4A4CB1-ABA4-E8D3-D483-E3D402C9573E}">
 			<ShortName>Ecos_soundbank</ShortName>
 			<Path>Ecos_soundbank.bnk</Path>
 			<Media>
 				<File Id="24859787" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx_objeto se rompe_02.wav</ShortName>
-					<CachePath>SFX/Sfx_objeto se rompe_02_818F3B66.wem</CachePath>
+					<CachePath>SFX/Sfx_objeto se rompe_02_F21A8BDF.wem</CachePath>
 				</File>
 				<File Id="34110746" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx_Arrastrar objeto_03.wav</ShortName>
-					<CachePath>SFX/Sfx_Arrastrar objeto_03_818F3B66.wem</CachePath>
+					<CachePath>SFX/Sfx_Arrastrar objeto_03_EE3FEDBD.wem</CachePath>
 				</File>
 				<File Id="51429071" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx_objeto se rompe_03.wav</ShortName>
-					<CachePath>SFX/Sfx_objeto se rompe_03_818F3B66.wem</CachePath>
+					<CachePath>SFX/Sfx_objeto se rompe_03_6918109C.wem</CachePath>
 				</File>
 				<File Id="65281317" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx_Salto Madera_01.wav</ShortName>
@@ -31,11 +31,11 @@
 				</File>
 				<File Id="99600105" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx_objeto cae_02.wav</ShortName>
-					<CachePath>SFX/Sfx_objeto cae_02_818F3B66.wem</CachePath>
+					<CachePath>SFX/Sfx_objeto cae_02_A159C1BB.wem</CachePath>
 				</File>
 				<File Id="105456541" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx_Arrastrar objeto_04.wav</ShortName>
-					<CachePath>SFX/Sfx_Arrastrar objeto_04_818F3B66.wem</CachePath>
+					<CachePath>SFX/Sfx_Arrastrar objeto_04_AEF202E0.wem</CachePath>
 				</File>
 				<File Id="133468324" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_fader hacia abajo_lento_01.wav</ShortName>
@@ -55,15 +55,15 @@
 				</File>
 				<File Id="219682923" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx_Arrastrar objeto_01.wav</ShortName>
-					<CachePath>SFX/Sfx_Arrastrar objeto_01_818F3B66.wem</CachePath>
+					<CachePath>SFX/Sfx_Arrastrar objeto_01_5013A400.wem</CachePath>
 				</File>
 				<File Id="240035180" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>REbobinar el reloj.wav</ShortName>
-					<CachePath>SFX/REbobinar el reloj_FA627BBB.wem</CachePath>
+					<CachePath>SFX/REbobinar el reloj_037CA455.wem</CachePath>
 				</File>
 				<File Id="297838992" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx_objeto cae_03.wav</ShortName>
-					<CachePath>SFX/Sfx_objeto cae_03_818F3B66.wem</CachePath>
+					<CachePath>SFX/Sfx_objeto cae_03_38BEB15C.wem</CachePath>
 				</File>
 				<File Id="306054700" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx_Transición Play_01.wav</ShortName>
@@ -71,7 +71,7 @@
 				</File>
 				<File Id="362511487" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx_objeto se rompe_04.wav</ShortName>
-					<CachePath>SFX/Sfx_objeto se rompe_04_818F3B66.wem</CachePath>
+					<CachePath>SFX/Sfx_objeto se rompe_04_32B221BD.wem</CachePath>
 				</File>
 				<File Id="378590965" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx_Salto Piedra_04.wav</ShortName>
@@ -99,7 +99,7 @@
 				</File>
 				<File Id="710909376" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Selección en el menu_02.wav</ShortName>
-					<CachePath>SFX/Selección en el menu_02_321E41B0.wem</CachePath>
+					<CachePath>SFX/Selección en el menu_02_6FC80474.wem</CachePath>
 				</File>
 				<File Id="761287832" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_fader hacia arriba_lento_01.wav</ShortName>
@@ -119,7 +119,7 @@
 				</File>
 				<File Id="838317921" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx_objeto cae_01.wav</ShortName>
-					<CachePath>SFX/Sfx_objeto cae_01_818F3B66.wem</CachePath>
+					<CachePath>SFX/Sfx_objeto cae_01_E7C83F8C.wem</CachePath>
 				</File>
 				<File Id="849825206" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx_Paso Piedra_01.wav</ShortName>
@@ -139,7 +139,7 @@
 				</File>
 				<File Id="979715660" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx_Arrastrar objeto_02.wav</ShortName>
-					<CachePath>SFX/Sfx_Arrastrar objeto_02_818F3B66.wem</CachePath>
+					<CachePath>SFX/Sfx_Arrastrar objeto_02_4C4955F6.wem</CachePath>
 				</File>
 				<File Id="982854474" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>mus_juego_general_01.wav</ShortName>
@@ -150,6 +150,20 @@
 					<CachePath>SFX/sfx_checkpoint_01_8624CC80.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="605241015" Name="Guitar Distortion (Custom)" LibName="Wwise Guitar Distortion" LibId="8257539"/>
+					<Plugin Id="862804759" Name="Time Stretch (Custom)" LibName="Wwise Time Stretch" LibId="8519683"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1820854077" Name="Noise_Gate_Fast_Attack" LibName="Wwise Expander" LibId="7143427"/>
+					<Plugin Id="1863245162" Name="Noise_Gate_Slow_Attack" LibName="Wwise Expander" LibId="7143427"/>
+					<Plugin Id="2653529179" Name="Three_Voices" LibName="Wwise Harmonizer" LibId="9043971"/>
+					<Plugin Id="2805769450" Name="Special_Effect_1" LibName="Wwise Flanger" LibId="8192003"/>
+					<Plugin Id="4113267698" Name="Hall_Guns" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
 			<Events>
 				<Event Id="2703320882" Name="Play_fader" DurationType="OneShot" DurationMin="0.008264167" DurationMax="0.025150623">
 					<MediaRefs>
@@ -167,28 +181,53 @@
 						<MediaRef Id="882199415"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3997781668" Name="Play_object_arrastrar" DurationType="OneShot" DurationMin="1.3750113" DurationMax="4">
+				<Event Id="729740426" Name="Play_object_arrastrar_01" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="34110746"/>
 						<MediaRef Id="105456541"/>
 						<MediaRef Id="219682923"/>
 						<MediaRef Id="979715660"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="4113267698"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
-				<Event Id="3695288582" Name="Play_object_breaks" DurationType="OneShot" DurationMin="1.3750113" DurationMax="3">
+				<Event Id="3695288582" Name="Play_object_breaks" DurationType="OneShot" DurationMin="1.3545859" DurationMax="2.7980921">
 					<MediaRefs>
 						<MediaRef Id="24859787"/>
 						<MediaRef Id="51429071"/>
 						<MediaRef Id="362511487"/>
 						<MediaRef Id="832822028"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="605241015"/>
+						</Custom>
+						<ShareSets>
+							<PluginRef Id="48620415"/>
+							<PluginRef Id="1820854077"/>
+							<PluginRef Id="2805769450"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
-				<Event Id="1481202888" Name="Play_object_ca_da" DurationType="OneShot" DurationMin="1.5" DurationMax="3">
+				<Event Id="1481202888" Name="Play_object_ca_da" DurationType="OneShot" DurationMin="2.013841" DurationMax="2.5121107">
 					<MediaRefs>
 						<MediaRef Id="99600105"/>
 						<MediaRef Id="297838992"/>
 						<MediaRef Id="838317921"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="862804759"/>
+						</Custom>
+						<ShareSets>
+							<PluginRef Id="1863245162"/>
+							<PluginRef Id="2653529179"/>
+							<PluginRef Id="2805769450"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="1754441394" Name="Play_object_rearma" DurationType="OneShot" DurationMin="0.75" DurationMax="3">
 					<MediaRefs>
@@ -234,7 +273,7 @@
 						<MediaRef Id="175376852"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="109528256" Name="Play_Selecci_n_en_el_menu_02" DurationType="OneShot" DurationMin="0.08332405" DurationMax="0.1322687">
+				<Event Id="109528256" Name="Play_Selecci_n_en_el_menu_02" DurationType="OneShot" DurationMin="0.07847711" DurationMax="0.12457464">
 					<MediaRefs>
 						<MediaRef Id="710909376"/>
 					</MediaRefs>
@@ -261,10 +300,11 @@
 				</Event>
 				<Event Id="1852669747" Name="Stop_mus_juego_general_01" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2611190625" Name="Stop_mus_menu_01" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="181998394" Name="Stop_object_arrastrar" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3331308815" Name="Stop_REbobinar_el_reloj" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F7C054B5-F059-B977-4193-2A4175F39318}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6231A86B-6A5A-174F-F049-5545326184DC}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -418,5 +458,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2F46ED5A-B159-B4EE-F25B-BA58C937AE6D}</FileHash>
+	<FileHash>{1306B737-82BD-CF6E-C9D8-EDEBBA388076}</FileHash>
 </SoundBanksInfo>

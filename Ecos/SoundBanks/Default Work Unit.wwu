@@ -9,12 +9,12 @@
 						<ObjectRef Name="Play_Sfx_Transici_n_Play_01" ID="{4F08B020-E30B-408D-8526-10DE8C51EFF0}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_player_saltos_madera" ID="{54B62567-219E-40A8-860A-6EC2DC29689A}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Selecci_n_en_el_menu_02" ID="{CCE7EF29-10CF-4154-B34D-09257AA86AEA}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_object_arrastrar" ID="{25A9E775-3BAB-4192-B9B6-0EB6F2A786F7}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_player_saltos_piedra" ID="{ECDA2257-5AD0-419F-A365-0E0A5B13E7E3}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_mus_juego_general_01" ID="{6D978AF5-5447-445F-A76A-6702DA397D9E}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_object_breaks" ID="{CF6DAFC9-65FF-4491-9B47-DEC8BAD764AD}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_mus_menu_01" ID="{7D03D155-021E-45F8-BCAA-D5E0DC150216}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_player_pasos_madera" ID="{4F802120-2390-463B-A527-7DACD7806043}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_object_arrastrar_01" ID="{BCF154E8-9D4B-46AE-8487-49A59261B480}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_sfx_triunfo_01" ID="{1B40717E-F7C0-476B-871A-3A0EB5DC3555}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Selecci_n_en_el_menu" ID="{204AF4C0-681F-47F3-A714-D5F9D0FABF3A}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_sfx_checkpoint_01" ID="{197858C8-6600-4843-BB39-7B74EBE75CC6}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
@@ -23,6 +23,7 @@
 						<ObjectRef Name="Stop_REbobinar_el_reloj" ID="{1CF64043-1DC6-4AF5-942E-92C0D7BFA3F6}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_mus_menu_01" ID="{90668E52-659B-4C08-B870-F4FB16661603}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_player_pasos_piedra" ID="{616C63EF-BF93-4D01-85AB-FCF9A5B763BF}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_object_arrastrar" ID="{DC6BFACA-89C9-4E2A-8E1B-EE17D1A61B79}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_REbobinar_el_reloj" ID="{3B4D9AE8-A4B1-4E75-9AD9-A55977CB90F4}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_fader" ID="{FFC503A6-6667-4F32-89E3-84AED57E0BC2}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_object_ca_da" ID="{1BC297D4-A4C2-4FC3-A18B-A4C60705A054}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>

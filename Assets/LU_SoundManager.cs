@@ -8,16 +8,21 @@ public class LU_SoundManager : MonoBehaviour
    
     [Header("musica")]
 
-    public AK.Wwise.Event musicaMenu;
-    public AK.Wwise.Event playMusicaFondo;
-    public AK.Wwise.Event stopMusicaFondo;
+   [SerializeField] private AK.Wwise.Event musicaMenu;
+
+   [SerializeField] private AK.Wwise.Event playMusicaFondo;
+    [SerializeField] private AK.Wwise.Event stopMusicaFondo;
 
     [Header("sfx")]
-    public AK.Wwise.Event playReboninar;
-    public AK.Wwise.Event stopReboninar;
-    public AK.Wwise.Event seleccionMenu;
-    public AK.Wwise.Event playFader;
-    public AK.Wwise.Event playSelect;
+    [SerializeField] private AK.Wwise.Event playReboninar;
+    [SerializeField] private AK.Wwise.Event stopReboninar;
+    [SerializeField] private AK.Wwise.Event seleccionMenu;
+    [SerializeField] private AK.Wwise.Event playFader;
+    [SerializeField] private AK.Wwise.Event playSelect;
+    [SerializeField] private AK.Wwise.Event playSeleccionarObjMov;
+    [SerializeField] private AK.Wwise.Event stopSeleccionarObjMov;
+    [SerializeField] private AK.Wwise.Event playSeleccionarObjTie;
+  
 
 
    public void Start ()
@@ -96,8 +101,18 @@ public class LU_SoundManager : MonoBehaviour
     public void SonidoSeleccionObjeto()
     {
         Debug.Log("LU :: Aqui Sonido Seleccion Objetos Moviles");
+        playSeleccionarObjMov.Post(gameObject);
     }
-
+    public void StopSeleccionObjeto()
+    {
+        Debug.Log("LU :: Aqui Sonido Seleccion Objetos Moviles");
+        stopSeleccionarObjMov.Post(gameObject);
+    }
+    public void SonidoSeleccionObjetoTiempo()
+    {
+        playSeleccionarObjTie.Post(gameObject);
+    }
+   
     public void SonidoUsarSlider()
     {
         Debug.Log("LU :: Aqui Sonido Usar Slider - Objetos Moviles");

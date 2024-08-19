@@ -4,6 +4,18 @@
 		<WorkUnit Name="Interactive objects" ID="{B239EE58-6147-452E-B4C2-473016892285}" PersistMode="Standalone">
 			<ChildrenList>
 				<RandomSequenceContainer Name="object_arrastrar" ID="{C773269D-FAB4-4D7D-AEB6-ACDDD0EBDC32}" ShortID="77829155">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>910</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
@@ -14,6 +26,19 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="Sfx_Arrastrar objeto_01" ID="{79E359B4-100C-4055-983E-25E44E9B24B3}" ShortID="258720149">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>62</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
@@ -24,6 +49,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Sfx_Arrastrar objeto_01" ID="{BF475B99-2F2A-4243-A1F3-095CB026CDBC}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.70934256055363"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.98269896193772"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Sfx_Arrastrar objeto_01.wav</AudioFile>
 									<MediaIDList>
@@ -36,6 +66,19 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Sfx_Arrastrar objeto_02" ID="{7B481F82-5B9E-484F-9AAE-BE1538C2B06A}" ShortID="912858394">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>75</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
@@ -46,6 +89,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Sfx_Arrastrar objeto_02" ID="{895FAB86-F07D-4519-8BC9-6B7A6F0B1ED2}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.949826989619377"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.89965397923875"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Sfx_Arrastrar objeto_02.wav</AudioFile>
 									<MediaIDList>
@@ -58,6 +106,14 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Sfx_Arrastrar objeto_03" ID="{B9658077-A9B2-4143-AF9D-342DE01231D2}" ShortID="1052842724">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
@@ -68,6 +124,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Sfx_Arrastrar objeto_03" ID="{695AA9BA-4CED-4A1C-A0E6-CD15EFED2577}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.882576481573021"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Sfx_Arrastrar objeto_03.wav</AudioFile>
 									<MediaIDList>
@@ -80,6 +140,19 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Sfx_Arrastrar objeto_04" ID="{F8586527-D068-4638-B91B-AF472731C441}" ShortID="900192117">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>40</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
@@ -90,6 +163,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Sfx_Arrastrar objeto_04" ID="{D7D702F1-9535-4110-A1C3-9D9FA53F00D9}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.25346562154273"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.25714642719833"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Sfx_Arrastrar objeto_04.wav</AudioFile>
 									<MediaIDList>
@@ -102,8 +180,35 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{1E319A05-4950-4F53-BA3F-53D49A99D3D1}" ShortID="445505722">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="Hall_Guns" ID="{B35D266A-CE6E-40A1-B197-14C12F9C21B1}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="object_caída" ID="{69A488D3-5A4B-4041-B903-AD2E57019271}" ShortID="1073070030">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-2400</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
@@ -124,6 +229,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Sfx_objeto cae_01" ID="{75DC2A91-9562-4000-837A-4F21943AEAD8}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.428200692041523"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.05622837370242"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Sfx_objeto cae_01.wav</AudioFile>
 									<MediaIDList>
@@ -146,6 +256,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Sfx_objeto cae_02" ID="{FF3A89F3-80CF-46F3-8F34-5264DF4AC6F5}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.356401384083045"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.885813148788927"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Sfx_objeto cae_02.wav</AudioFile>
 									<MediaIDList>
@@ -168,6 +283,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Sfx_objeto cae_03" ID="{C5FC8C45-484D-40D5-8D5C-1982306ECDE1}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.06920415224913"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.57266435986159"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Sfx_objeto cae_03.wav</AudioFile>
 									<MediaIDList>
@@ -180,6 +300,64 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{011AD429-6FE7-472C-8F78-D56019183D28}" ShortID="450708737">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Expander" CompanyID="0" PluginID="109" PluginType="3">
+												<ObjectRef Name="Noise_Gate_Slow_Attack" ID="{8D16DAF8-FD63-4A83-894E-2E82DA790C71}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{853E74BC-9FE9-43DE-BD35-F0D93E333081}" ShortID="33574100">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+												<ObjectRef Name="Special_Effect_1" ID="{83317D8A-9D4C-438E-BE8C-BC7D27CAD1B0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{D76B1ADB-3465-4B6C-A9BA-F712CFC9DD2A}" ShortID="326870359">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+												<ObjectRef Name="Three_Voices" ID="{71CA20BE-8C1D-4A0C-92AF-BFCE183D5651}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{64D8D1A1-8218-421B-AA1F-68A01E1AD44A}" ShortID="521793396">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Time Stretch (Custom)" ID="{E62FA9FD-0C28-43F3-98C2-A6A644DFAF8F}" ShortID="862804759" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+														<PropertyList>
+															<Property Name="PitchShift" Type="Real32" Value="-400"/>
+															<Property Name="PitchShiftRandom" Type="Real32" Value="600"/>
+															<Property Name="QualityEnable" Type="int16" Value="1"/>
+															<Property Name="TimeStretch" Type="Real32" Value="153"/>
+															<Property Name="WindowSize" Type="int32" Value="8192"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="object_rearma" ID="{C01896C7-138D-40EE-B6CF-2D50085E280C}" ShortID="1054090482">
 					<ReferenceList>
@@ -282,6 +460,24 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="object_breaks" ID="{BF7DA8D5-5F6E-4AC9-8080-A1F8A29FA1D4}" ShortID="108131952">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>15</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-1230</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CEC47AB4-0D6C-42BD-8D8E-C1160B630CE9}"/>
@@ -324,6 +520,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Sfx_objeto se rompe_02" ID="{76D6F767-2A30-4115-8C46-59F2E21908B7}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.11332179930796"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.77897923875432"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Sfx_objeto se rompe_02.wav</AudioFile>
 									<MediaIDList>
@@ -346,6 +547,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Sfx_objeto se rompe_03" ID="{ADA55A3D-77AF-4E39-A2C7-08A156A802FA}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.04844290657439"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.9878892733564"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Sfx_objeto se rompe_03.wav</AudioFile>
 									<MediaIDList>
@@ -368,6 +574,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Sfx_objeto se rompe_04" ID="{B07B97D9-6EE7-411A-8821-19831578F764}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.955017301038062"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.86851211072664"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Sfx_objeto se rompe_04.wav</AudioFile>
 									<MediaIDList>
@@ -380,6 +591,72 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{29A504B1-8D0F-48D8-9AEB-FEFFDCC5E5A5}" ShortID="419014868">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Expander" CompanyID="0" PluginID="109" PluginType="3">
+												<ObjectRef Name="Noise_Gate_Fast_Attack" ID="{747A6B61-E953-474C-8227-672C884DA616}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{44308D4F-507B-4E93-8E2D-96207CD5D013}" ShortID="571585615">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+												<ObjectRef Name="Special_Effect_1" ID="{83317D8A-9D4C-438E-BE8C-BC7D27CAD1B0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{A7B1FFA5-332C-4DE9-BCCE-017B290E1CA3}" ShortID="213360806">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Guitar Distortion (Custom)" ID="{4AFB161A-EC58-40EF-A894-92287A13EF03}" ShortID="605241015" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+														<PropertyList>
+															<Property Name="DistortionDrive" Type="Real32" Value="59"/>
+															<Property Name="DistortionTone" Type="Real32" Value="41"/>
+															<Property Name="DistortionType" Type="int32" Value="2"/>
+															<Property Name="OutputLevel" Type="Real32" Value="2"/>
+															<Property Name="PreEQBand1Enable" Type="bool" Value="True"/>
+															<Property Name="PreEQBand1Frequency" Type="Real32" Value="20"/>
+															<Property Name="PreEQBand1Gain" Type="Real32" Value="48"/>
+															<Property Name="PreEQBand2Enable" Type="bool" Value="True"/>
+															<Property Name="PreEQBand2Frequency" Type="Real32" Value="153"/>
+															<Property Name="PreEQBand2Gain" Type="Real32" Value="8.5"/>
+															<Property Name="PreEQBand3Enable" Type="bool" Value="True"/>
+															<Property Name="PreEQBand3FilterType" Type="int32" Value="3"/>
+															<Property Name="PreEQBand3Frequency" Type="Real32" Value="20000"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{58EBBB63-A83D-4890-B9BA-A283A9CAB36F}" ShortID="39820488">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>

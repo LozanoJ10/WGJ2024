@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_object_arrastrar" ID="{25A9E775-3BAB-4192-B9B6-0EB6F2A786F7}">
-					<ChildrenList>
-						<Action Name="" ID="{BCBE51A6-08C7-4573-88A8-A2286ADF7C2C}" ShortID="345821714">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="object_arrastrar" ID="{C773269D-FAB4-4D7D-AEB6-ACDDD0EBDC32}" WorkUnitID="{B239EE58-6147-452E-B4C2-473016892285}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_object_breaks" ID="{CF6DAFC9-65FF-4491-9B47-DEC8BAD764AD}">
 					<ChildrenList>
 						<Action Name="" ID="{6C95BE6B-98D6-46A5-B2B5-E942D4E43D50}" ShortID="497096904">
@@ -210,17 +199,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_player_arrastrar_obj" ID="{741E5189-A3C2-4ABC-8B51-E38C446BBF9E}">
-					<ChildrenList>
-						<Action Name="" ID="{32902299-0772-48CD-9627-FF3F0A3C909C}" ShortID="392804057">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="player_arrastrar_obj" ID="{8E054572-0EBF-494A-BE79-415CE6DD3FD6}" WorkUnitID="{5B6F4AA9-8948-4145-AF80-453FEA18081D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Stop_REbobinar_el_reloj" ID="{1CF64043-1DC6-4AF5-942E-92C0D7BFA3F6}">
 					<ChildrenList>
 						<Action Name="" ID="{BF165097-48AC-4EBC-85A4-B45BB30FD18D}" ShortID="563708335">
@@ -242,6 +220,32 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Selección en el menu_02" ID="{9DDF80EB-3CCF-46EE-88EA-2BB0627679EF}" WorkUnitID="{9B5B6373-3284-49F2-B115-89892F8998FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_object_arrastrar_01" ID="{BCF154E8-9D4B-46AE-8487-49A59261B480}">
+					<ChildrenList>
+						<Action Name="" ID="{7C6DBAEF-5618-4830-963E-6A779CCA3EA5}" ShortID="46841606">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="object_arrastrar" ID="{C773269D-FAB4-4D7D-AEB6-ACDDD0EBDC32}" WorkUnitID="{B239EE58-6147-452E-B4C2-473016892285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_object_arrastrar" ID="{DC6BFACA-89C9-4E2A-8E1B-EE17D1A61B79}">
+					<ChildrenList>
+						<Action Name="" ID="{5BE1A57B-E4F2-4731-AC73-DD1BCAFB8579}" ShortID="995461193">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="object_arrastrar" ID="{C773269D-FAB4-4D7D-AEB6-ACDDD0EBDC32}" WorkUnitID="{B239EE58-6147-452E-B4C2-473016892285}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

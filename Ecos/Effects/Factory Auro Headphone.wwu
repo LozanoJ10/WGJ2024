@@ -126,6 +126,7 @@
 						<Property Name="Wall_top" Type="Real32" Value="2"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="New_RoomVerb" ID="{8259A815-97D9-40D4-ABB1-276A835D46B6}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>
