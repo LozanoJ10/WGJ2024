@@ -41,8 +41,15 @@ public class Aniamciones_Niña : MonoBehaviour
         {
             anim.SetBool("Walk",false);
         }
-    }
 
+        if(!playerMove.estaEnSuelo && !playerMove.estaEnObjetoMovil && !playerMove.estaEnUnPISO && !playerMove.estaEnObjetoRe && !playerMove.estaEnObjetoVel)
+        {
+            anim.SetBool("Jump",true);
+        
+        }
+        else{anim.SetBool("Jump",false);}
+    }
+ 
     public void SonidoCaminarMov()
     {
         implementacionSonido.SonidoPasos();    

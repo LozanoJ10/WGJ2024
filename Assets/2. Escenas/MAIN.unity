@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.45136118, g: 0.5009327, b: 0.57272804, a: 1}
+  m_IndirectSpecularColor: {r: 0.4513616, g: 0.5009333, b: 0.57272834, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -83316,7 +83316,7 @@ MonoBehaviour:
   botonPausa: {fileID: 0}
   estaPausado: 0
   anim: {fileID: 0}
-  reinicioNivel: ESCENARIO
+  reinicioNivel: MAIN
   menuPrincipal: Menu_Prinncipal
   _GameManager: {fileID: 0}
 --- !u!114 &1347959889
