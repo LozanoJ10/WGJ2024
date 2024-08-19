@@ -35,6 +35,7 @@ public class CircularMovementDetector : MonoBehaviour
     [Header("Implementacion Sonido")]
     public LU_SoundManager implementacionSonido;
     public bool dioClick = false;
+    public bool haciaAtras = false;
 
     void Awake()
     {
@@ -114,21 +115,25 @@ public class CircularMovementDetector : MonoBehaviour
                 // Detect positive or negative angle to trigger actions
                 if (angle > 0)
                 {
+                    haciaAtras = true;
                     foreach (var controlTiempo in controlTiempos)
                     {
                         if (!controlTiempo.isRecording)
                         {
                             controlTiempo.StartRewind();
+
                         }
                     }
                 }
                 else if (angle < 0)
                 {
+                    haciaAtras = false;
                     foreach (var controlTiempo in controlTiempos)
                     {
                         if (!controlTiempo.isRecording)
                         {
                             controlTiempo.StartForward();
+
                         }
                     }
                 }
@@ -138,8 +143,6 @@ public class CircularMovementDetector : MonoBehaviour
             }
             else
             {
-                Debug.Log("LU_Aqui se debe detener el sonido de RETORCEDER EL TIEMPO Colocar el Stop de la pista");
-                // Stop actions if there's no significant movement
                 foreach (var controlTiempo in controlTiempos)
                 {
                     controlTiempo.StopForward();

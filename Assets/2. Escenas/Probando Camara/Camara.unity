@@ -5782,7 +5782,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &97960840
 Transform:
   m_ObjectHideFlags: 0
@@ -5818,7 +5818,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: -16, y: 0, z: 0}
+  m_Center: {x: -27, y: 0, z: 0}
 --- !u!65 &97960842
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5839,7 +5839,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 16, y: 0, z: 0}
+  m_Center: {x: 27, y: 0, z: 0}
 --- !u!114 &97960843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5852,7 +5852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d7b00a0e9924b41b29ebed4a5ce58d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  focus: {fileID: 1813106001}
+  camaraController: {fileID: 1813106000}
 --- !u!1 &98040977
 GameObject:
   m_ObjectHideFlags: 0
@@ -15707,37 +15707,6 @@ RectTransform:
   m_AnchoredPosition: {x: 136, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &252668712
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 252668713}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &252668713
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 252668712}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -39.33, y: 0, z: 5.19}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &254038563
 GameObject:
   m_ObjectHideFlags: 0
@@ -20229,8 +20198,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 316523515}
-  - component: {fileID: 316523516}
   - component: {fileID: 316523517}
+  - component: {fileID: 316523516}
   m_Layer: 0
   m_Name: Collider_FocusCamaraCaida (1)
   m_TagString: Untagged
@@ -20283,10 +20252,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 316523514}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91583429a64afd548a5db362bbd893b0, type: 3}
+  m_Script: {fileID: 11500000, guid: d18c451fef6d49345b8c7ddfaec74d2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  focus: {fileID: 1813106001}
+  camaraController: {fileID: 1813106000}
 --- !u!1 &320584424
 GameObject:
   m_ObjectHideFlags: 0
@@ -22889,7 +22858,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1930827807}
-  - {fileID: 6244554366951192901}
   m_Father: {fileID: 1915189746}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24751,8 +24719,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 401739001}
-  - component: {fileID: 401739002}
   - component: {fileID: 401739003}
+  - component: {fileID: 401739002}
   m_Layer: 0
   m_Name: Collider_FocusCamara
   m_TagString: Untagged
@@ -24769,7 +24737,7 @@ Transform:
   m_GameObject: {fileID: 401739000}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 5}
-  m_LocalScale: {x: 30, y: 1, z: 1}
+  m_LocalScale: {x: 40, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1809443536}
@@ -24805,10 +24773,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 401739000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91583429a64afd548a5db362bbd893b0, type: 3}
+  m_Script: {fileID: 11500000, guid: d18c451fef6d49345b8c7ddfaec74d2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  focus: {fileID: 1813106001}
+  camaraController: {fileID: 1813106000}
 --- !u!1 &402560534
 GameObject:
   m_ObjectHideFlags: 0
@@ -27781,8 +27749,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 473119890}
-  - component: {fileID: 473119891}
   - component: {fileID: 473119892}
+  - component: {fileID: 473119891}
   m_Layer: 0
   m_Name: Collider_FocusCamara
   m_TagString: Untagged
@@ -27799,7 +27767,7 @@ Transform:
   m_GameObject: {fileID: 473119889}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 5}
-  m_LocalScale: {x: 30, y: 1, z: 1}
+  m_LocalScale: {x: 40, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2044418364}
@@ -27835,10 +27803,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 473119889}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91583429a64afd548a5db362bbd893b0, type: 3}
+  m_Script: {fileID: 11500000, guid: d18c451fef6d49345b8c7ddfaec74d2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  focus: {fileID: 1813106001}
+  camaraController: {fileID: 1813106000}
 --- !u!1 &474081526
 GameObject:
   m_ObjectHideFlags: 0
@@ -30926,7 +30894,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d7b00a0e9924b41b29ebed4a5ce58d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  focus: {fileID: 1813106001}
+  camaraController: {fileID: 1813106000}
 --- !u!65 &528592542
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30947,7 +30915,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: -16, y: 0, z: 0}
+  m_Center: {x: -23, y: 0, z: 0}
 --- !u!65 &528592543
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30968,7 +30936,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 16, y: 0, z: 0}
+  m_Center: {x: 23, y: 0, z: 0}
 --- !u!1 &529074515
 GameObject:
   m_ObjectHideFlags: 0
@@ -32166,8 +32134,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 545263729}
-  - component: {fileID: 545263730}
   - component: {fileID: 545263731}
+  - component: {fileID: 545263730}
   m_Layer: 0
   m_Name: Collider_FocusCamara
   m_TagString: Untagged
@@ -32184,7 +32152,7 @@ Transform:
   m_GameObject: {fileID: 545263728}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 5}
-  m_LocalScale: {x: 30, y: 1, z: 1}
+  m_LocalScale: {x: 40, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 696992223}
@@ -32220,10 +32188,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 545263728}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91583429a64afd548a5db362bbd893b0, type: 3}
+  m_Script: {fileID: 11500000, guid: d18c451fef6d49345b8c7ddfaec74d2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  focus: {fileID: 1813106001}
+  camaraController: {fileID: 1813106000}
 --- !u!1 &545826333
 GameObject:
   m_ObjectHideFlags: 0
@@ -36137,6 +36105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d18c451fef6d49345b8c7ddfaec74d2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camaraController: {fileID: 1813106000}
 --- !u!1 &614598618
 GameObject:
   m_ObjectHideFlags: 0
@@ -36328,8 +36297,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 614961211}
-  - component: {fileID: 614961212}
   - component: {fileID: 614961213}
+  - component: {fileID: 614961212}
   m_Layer: 0
   m_Name: Collider_FocusCamaraCaida (1)
   m_TagString: Untagged
@@ -36382,10 +36351,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 614961210}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91583429a64afd548a5db362bbd893b0, type: 3}
+  m_Script: {fileID: 11500000, guid: d18c451fef6d49345b8c7ddfaec74d2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  focus: {fileID: 1813106001}
+  camaraController: {fileID: 1813106000}
 --- !u!1 &616695650
 GameObject:
   m_ObjectHideFlags: 0
@@ -40490,7 +40459,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &690492841
 Transform:
   m_ObjectHideFlags: 0
@@ -46348,7 +46317,6 @@ MonoBehaviour:
   vhsEfecto: {fileID: 571394043}
   implementacionSonido: {fileID: 669238711}
   dioClick: 0
-  haciaAtras: 0
 --- !u!4 &776598316
 Transform:
   m_ObjectHideFlags: 0
@@ -52297,7 +52265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d7b00a0e9924b41b29ebed4a5ce58d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  focus: {fileID: 1813106001}
+  camaraController: {fileID: 1813106000}
 --- !u!65 &852387413
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52318,7 +52286,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: -16, y: 0, z: 0}
+  m_Center: {x: -23, y: 0, z: 0}
 --- !u!65 &852387414
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52339,7 +52307,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 16, y: 0, z: 0}
+  m_Center: {x: 23, y: 0, z: 0}
 --- !u!1 &854184344
 GameObject:
   m_ObjectHideFlags: 0
@@ -56438,7 +56406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d7b00a0e9924b41b29ebed4a5ce58d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  focus: {fileID: 1813106001}
+  camaraController: {fileID: 1813106000}
 --- !u!65 &922551677
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -56459,7 +56427,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: -16, y: 0, z: 0}
+  m_Center: {x: -23, y: 0, z: 0}
 --- !u!65 &922551678
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -56480,7 +56448,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 16, y: 0, z: 0}
+  m_Center: {x: 23, y: 0, z: 0}
 --- !u!1001 &922725869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56848,7 +56816,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 926871595}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -58676,7 +58644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d7b00a0e9924b41b29ebed4a5ce58d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  focus: {fileID: 1813106001}
+  camaraController: {fileID: 1813106000}
 --- !u!65 &947901466
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58697,7 +58665,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: -16, y: 0, z: 0}
+  m_Center: {x: -23, y: 0, z: 0}
 --- !u!65 &947901467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58718,7 +58686,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 16, y: 0, z: 0}
+  m_Center: {x: 23, y: 0, z: 0}
 --- !u!1 &949662314
 GameObject:
   m_ObjectHideFlags: 0
@@ -59236,11 +59204,11 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: -50
+  near clip plane: -31.7
   far clip plane: 500
   field of view: 40
   orthographic: 1
-  orthographic size: 11
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -59263,8 +59231,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.2, y: 4, z: 3}
+  m_LocalRotation: {x: -0.0016666697, y: 0.00000001720649, z: 2.8677576e-11, w: 0.9999986}
+  m_LocalPosition: {x: -111.9, y: 0, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -61634,8 +61602,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 991962230}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.2, y: 4, z: 3}
+  m_LocalRotation: {x: -0.0016666697, y: 0.00000001720649, z: 2.8677576e-11, w: 0.9999986}
+  m_LocalPosition: {x: -111.9, y: 0, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -61665,8 +61633,8 @@ MonoBehaviour:
   m_Follow: {fileID: 1173007163}
   m_Lens:
     FieldOfView: 40
-    OrthographicSize: 11
-    NearClipPlane: -50
+    OrthographicSize: 5
+    NearClipPlane: -31.7
     FarClipPlane: 500
     Dutch: 0
     ModeOverride: 0
@@ -64585,7 +64553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1051494784}
   m_Layer: 0
-  m_Name: '::::::::::::::::::: Zona 4 JEFE'
+  m_Name: '::::::::::::::::::: Zona  4 JEFE'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72622,7 +72590,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1173007156}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.2, y: 0, z: 5}
+  m_LocalPosition: {x: -111.9, y: 0, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -74715,15 +74683,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1206721963}
-  - component: {fileID: 1206721964}
   - component: {fileID: 1206721965}
+  - component: {fileID: 1206721964}
   m_Layer: 0
   m_Name: Collider_FocusCamara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1206721963
 Transform:
   m_ObjectHideFlags: 0
@@ -74733,7 +74701,7 @@ Transform:
   m_GameObject: {fileID: 1206721962}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 5}
-  m_LocalScale: {x: 30, y: 1, z: 1}
+  m_LocalScale: {x: 50, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 158121203}
@@ -74769,10 +74737,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1206721962}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91583429a64afd548a5db362bbd893b0, type: 3}
+  m_Script: {fileID: 11500000, guid: d18c451fef6d49345b8c7ddfaec74d2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  focus: {fileID: 1813106001}
+  camaraController: {fileID: 1813106000}
 --- !u!1 &1214405629
 GameObject:
   m_ObjectHideFlags: 0
@@ -100389,8 +100357,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1648373389}
-  - component: {fileID: 1648373390}
   - component: {fileID: 1648373391}
+  - component: {fileID: 1648373390}
   m_Layer: 0
   m_Name: Collider_FocusCamara
   m_TagString: Untagged
@@ -100407,7 +100375,7 @@ Transform:
   m_GameObject: {fileID: 1648373388}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 5}
-  m_LocalScale: {x: 30, y: 1, z: 1}
+  m_LocalScale: {x: 40, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 802502116}
@@ -100443,10 +100411,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1648373388}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91583429a64afd548a5db362bbd893b0, type: 3}
+  m_Script: {fileID: 11500000, guid: d18c451fef6d49345b8c7ddfaec74d2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  focus: {fileID: 1813106001}
+  camaraController: {fileID: 1813106000}
 --- !u!1001 &1648537986
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -102601,7 +102569,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677583886}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -47.090046, y: 0.3499987, z: 5}
+  m_LocalPosition: {x: -71.08005, y: 0.3499987, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -105107,8 +105075,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1717492019}
   - component: {fileID: 1717492021}
-  - component: {fileID: 1717492023}
-  - component: {fileID: 1717492022}
+  - component: {fileID: 1717492020}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -105131,6 +105098,19 @@ Transform:
   m_Father: {fileID: 991962231}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1717492020
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717492018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36d1163fa822e8b418a0a603ec078d5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Damping: 0
 --- !u!114 &1717492021
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -105143,43 +105123,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1717492022
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1717492018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4c41ac9245b87c4192012080077d830, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Damping: 1
---- !u!114 &1717492023
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1717492018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd6043bde05a7fc4cba197d06915c1e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Damping: {x: 0.75, y: 3, z: 0}
-  ShoulderOffset: {x: 0, y: 4, z: 0}
-  VerticalArmLength: 0
-  CameraSide: 1
-  CameraDistance: 2
-  CameraCollisionFilter:
-    serializedVersion: 2
-    m_Bits: 0
-  IgnoreTag: 
-  CameraRadius: 0.001
-  DampingIntoCollision: 0
-  DampingFromCollision: 0
 --- !u!1 &1718208049
 GameObject:
   m_ObjectHideFlags: 0
@@ -109422,7 +109365,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1778587024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -47.090046, y: 0.49999833, z: 5}
+  m_LocalPosition: {x: -71.08005, y: 0.49999833, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -111838,7 +111781,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1809443536
 Transform:
   m_ObjectHideFlags: 0
@@ -112132,14 +112075,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1813105999}
   - component: {fileID: 1813106000}
-  - component: {fileID: 1813106001}
   m_Layer: 0
   m_Name: CamaraController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1813105999
 Transform:
   m_ObjectHideFlags: 0
@@ -112169,34 +112111,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   virtualCamera: {fileID: 991962232}
   movimientoPlayer: {fileID: 1173007158}
-  estaMoviendo: 0
-  targetShoulderOffsetXPositivo: 2
-  targetShoulderOffsetXNegativo: -2
+  puntoDeFocoCinemachine: {fileID: 926871596}
+  puntoIdle: {fileID: 581826666}
+  puntoMoverArriba: {fileID: 27628761}
+  puntoDerecha: {fileID: 492821593}
+  puntoIzquierda: {fileID: 1585867883}
+  gradualHorizontal: 0
   transitionSpeed: 3
-  valorProbar: 0
---- !u!114 &1813106001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813105998}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6e4229def24ce849b8c9b2267fd0903, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  virtualCamera: {fileID: 991962232}
-  transitionSpeed: 3
-  focusOrthoSize: 5
-  outOfFocusOrthoSize: 11
-  focusShoulderOffset: {x: 0, y: 0, z: 0}
-  outOfFocusShoulderOffset: {x: 0, y: 4, z: 0}
-  focusDamping: {x: 0, y: 0}
-  outOfFocusDamping: {x: 0.75, y: 3}
-  estaCorriendo: {fileID: 1173007158}
-  camaraController: {fileID: 1813106000}
-  haciendoFocus: 0
+  orthoTransitionSpeed: 3
+  focusChangeSpeed: 3
+  transitionSpeedToCentro: 3
+  transitionSpeedToIdle: 4
+  orthoTransitionSpeedToIdle: 5
+  tiempoParaCambiarFoco: 2
+  camaraFocus: 0
 --- !u!1001 &1816443219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -117926,7 +117854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d7b00a0e9924b41b29ebed4a5ce58d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  focus: {fileID: 1813106001}
+  camaraController: {fileID: 1813106000}
 --- !u!65 &1914168000
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -117947,7 +117875,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: -16, y: 0, z: 0}
+  m_Center: {x: -23, y: 0, z: 0}
 --- !u!65 &1914168001
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -117968,7 +117896,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 16, y: 0, z: 0}
+  m_Center: {x: 23, y: 0, z: 0}
 --- !u!1 &1915189745
 GameObject:
   m_ObjectHideFlags: 0
@@ -117997,6 +117925,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 6244554366951192901}
   - {fileID: 376781180}
   - {fileID: 158121203}
   - {fileID: 8738935908555359376}
@@ -118883,7 +118812,6 @@ GameObject:
   - component: {fileID: 1930827810}
   - component: {fileID: 1930827809}
   - component: {fileID: 1930827808}
-  - component: {fileID: 1930827812}
   m_Layer: 6
   m_Name: PastoPisoZ1 (2)
   m_TagString: PlataformaEstatica
@@ -118900,7 +118828,7 @@ Transform:
   m_GameObject: {fileID: 1930827806}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 29.1747, y: -1.5, z: 5.19}
-  m_LocalScale: {x: 153.6009, y: 1, z: 1}
+  m_LocalScale: {x: 300, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 376781180}
@@ -119008,19 +118936,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930827806}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1930827812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1930827806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f329e47d5751d6a4eb0b303a15991eb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ocultar: 0
 --- !u!1 &1931840600
 GameObject:
   m_ObjectHideFlags: 0
@@ -119739,8 +119654,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1947977160}
-  - component: {fileID: 1947977161}
   - component: {fileID: 1947977162}
+  - component: {fileID: 1947977161}
   m_Layer: 0
   m_Name: Collider_FocusCamara
   m_TagString: Untagged
@@ -119757,7 +119672,7 @@ Transform:
   m_GameObject: {fileID: 1947977159}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 5}
-  m_LocalScale: {x: 30, y: 1, z: 1}
+  m_LocalScale: {x: 40, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1044709750}
@@ -119793,10 +119708,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1947977159}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91583429a64afd548a5db362bbd893b0, type: 3}
+  m_Script: {fileID: 11500000, guid: d18c451fef6d49345b8c7ddfaec74d2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  focus: {fileID: 1813106001}
+  camaraController: {fileID: 1813106000}
 --- !u!1 &1949410623
 GameObject:
   m_ObjectHideFlags: 0
@@ -136039,7 +135954,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 376781180}
+  m_Father: {fileID: 1915189746}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &6244554367014120392
@@ -136050,7 +135965,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8155140285857858787}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
