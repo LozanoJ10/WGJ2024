@@ -21,12 +21,12 @@ public class FondoMovimiento : MonoBehaviour
             offset = -velocidadMovimiento * Time.deltaTime;
             material.mainTextureOffset += offset;
         }
-        else if (moverAtras.dioClick && !moverAtras.haciaAtras)
+        if (moverAtras.dioClick && !moverAtras.haciaAtras)
         {
             offset = velocidadMovimiento * 2.5f * Time.deltaTime;
             material.mainTextureOffset += offset;
         }
-        else if (!moverAtras.dioClick && !moverAtras.haciaAtras)
+        if (!moverAtras.dioClick && !moverAtras.haciaAtras)
         {
             offset = velocidadMovimiento * Time.deltaTime;
             material.mainTextureOffset += offset;

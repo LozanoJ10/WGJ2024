@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,6 +21,7 @@ public class RecibirGolpeEnemigo : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         enemigoAgent = GetComponent<NavMeshAgent>();
+        implementacionSonido = GameObject.Find("LU_SonidosManager").GetComponent<LU_SoundManager>();
     }
 
     private void Update()

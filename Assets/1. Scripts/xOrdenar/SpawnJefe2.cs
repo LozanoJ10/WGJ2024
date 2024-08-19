@@ -3,17 +3,16 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class spawnJefe2 : MonoBehaviour
-{
-	/*
+{	
     public Transform puntoSpawnJefe_2;
     public GameObject jefePrefab; // Variable para el prefab del jefe
     public bool spawneo = false;
 
-    public Transform spawnObjetoDaño1;
-    public Transform spawnObjetoDaño2;
-    public Transform spawnObjetoDaño3;
-    public Transform spawnObjetoDaño4;
-    public Transform spawnObjetoDaño5;
+    public Transform spawnObjetoDano1;
+    public Transform spawnObjetoDano2;
+    public Transform spawnObjetoDano3;
+    public Transform spawnObjetoDano4;
+    public Transform spawnObjetoDano5;
 
     public GameObject minionPrefab;
 
@@ -25,7 +24,7 @@ public class spawnJefe2 : MonoBehaviour
     void Start()
     {
         // Inicializamos la lista de puntos de spawn
-        spawnPoints = new List<Transform> { spawnObjetoDaño1, spawnObjetoDaño2, spawnObjetoDaño3, spawnObjetoDaño4, spawnObjetoDaño5 };
+        spawnPoints = new List<Transform> { spawnObjetoDano1, spawnObjetoDano2, spawnObjetoDano3, spawnObjetoDano4, spawnObjetoDano5 };
     }
 
     // Update is called once per frame
@@ -46,13 +45,13 @@ public class spawnJefe2 : MonoBehaviour
             spawneo = true;
 
             // Iniciar el contador para instanciar minions
-            minionSpawner = SpawnObjetosDaño();
+            minionSpawner = SpawnObjetosDano();
             StartCoroutine(minionSpawner);
         }
     }
 
     // Corrutina para instanciar el prefab en cada punto de manera aleatoria
-    private IEnumerator SpawnObjetosDaño()
+    private IEnumerator SpawnObjetosDano()
     {
         // Crear una copia de la lista original para modificarla sin afectar la lista original
         List<Transform> tempSpawnPoints = new List<Transform>(spawnPoints);
@@ -84,6 +83,5 @@ public class spawnJefe2 : MonoBehaviour
 
             yield return new WaitForSeconds(0.3f);
         }
-    }
-	*/
+    }	
 }

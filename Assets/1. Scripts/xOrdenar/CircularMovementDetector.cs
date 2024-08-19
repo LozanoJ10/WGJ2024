@@ -82,6 +82,7 @@ public class CircularMovementDetector : MonoBehaviour
                 implementacionSonido.StopSonidoRetrocederTiempo();
                 Debug.Log("Detener Audio");
                 dioClick = false;
+                haciaAtras = false;
             }
 
             isDragging = false;
@@ -128,6 +129,7 @@ public class CircularMovementDetector : MonoBehaviour
                 else if (angle < 0)
                 {
                     haciaAtras = false;
+
                     foreach (var controlTiempo in controlTiempos)
                     {
                         if (!controlTiempo.isRecording)

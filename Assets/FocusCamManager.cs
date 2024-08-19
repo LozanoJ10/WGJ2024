@@ -46,6 +46,7 @@ public class FocusCamManager : MonoBehaviour
 
         // Ajusta la velocidad de transición según el estado del jugador
         transitionSpeed = estaCorriendo.estaCorriendo ? 5.0f : 3.0f;
+        transitionSpeed = estaCorriendo.estaEnUnPISO ? 3.0f : 9.0f;
 
         // Determina si se debe enfocar o desenfocar
         if (haciendoFocus)
