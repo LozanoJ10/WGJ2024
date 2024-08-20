@@ -11,6 +11,8 @@ public class AnimationController : MonoBehaviour
     public GameObject tutoCantar;
     public bool esTest;
 
+    public CircularMovementDetector mueveAdelante;
+
     void Start()
     {
         animator.speed = animationSpeed;
@@ -18,28 +20,34 @@ public class AnimationController : MonoBehaviour
 
     void Update()
     {
-
         if (silvidoController.isMicrophoneAvailable)
         {
+            tutoCantar.gameObject.GetComponent<Animator>().enabled = true;
             // Cambia la velocidad de la animación en tiempo de ejecución
             animationSpeed = silvido.valorRecibidoSoplido;
             animator.speed = animationSpeed;
         }
         else
         {
+            tutoCantar.gameObject.GetComponent<Animator>().enabled = false;
+            // Opcional: Controles básicos para cambiar la velocidad usando teclas
+            if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
+            {
+                animationSpeed += 0.02f; // Incrementar la velocidad
+            }
+
+            if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
+            {
+                animationSpeed -= 0.02f; // Disminuir la velocidad
+            }           
+
+            if (!mueveAdelante.haciaAtras && mueveAdelante.dioClick)
+            {
+                animationSpeed += 0.001f; // Incrementar la velocidad  
+            }
+
             animator.speed = animationSpeed;
-        }
 
-
-        // Opcional: Controles básicos para cambiar la velocidad usando teclas
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            animationSpeed += 0.02f; // Incrementar la velocidad
-        }
-
-        if (Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            animationSpeed -= 0.02f; // Disminuir la velocidad
         }
     }
 
