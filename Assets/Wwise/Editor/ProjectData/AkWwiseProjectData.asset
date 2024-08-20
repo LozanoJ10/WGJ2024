@@ -331,7 +331,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 9c6449ee3ac87b41a9bad882784f5194
     GuidInternal: 
-    m_lastTime: -8584775097194036183
+    m_lastTime: -8584774868309901481
     List:
     - name: Ecos_soundbank
       guid: 0d9aa3fa1459b343b297092befaa4d4a
@@ -359,7 +359,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 8d3d0aa4a55fd64d9cc404b01d2899ab
     GuidInternal: 
-    m_lastTime: -8584775097194003949
+    m_lastTime: -8584774868309963743
     List:
     - name: Play_fader
       guid: a603c5ff6766324f89e384aed57e0bc2
@@ -444,11 +444,11 @@ MonoBehaviour:
         guid: c9af6dcfff6591449b47dec8bad764ad
       Path: Events/Default Work Unit/Play_object_breaks
       maxAttenuation: 0
-      maxDuration: 2.7980921
-      minDuration: 1.3545859
-    - name: Play_object_ca_da
-      guid: d497c21bc2a4c34fa18ba4c60705a054
-      id: 1481202888
+      maxDuration: 2.7659535
+      minDuration: 1.3390272
+    - name: Play_object_caida
+      guid: 35dc7c348f643b42947059d6f1e0ef80
+      id: 884697214
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -456,13 +456,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 8d3d0aa4a55fd64d9cc404b01d2899ab
-      - ElementName: Play_object_ca_da
+      - ElementName: Play_object_caida
         ObjectType: 3
-        guid: d497c21bc2a4c34fa18ba4c60705a054
-      Path: Events/Default Work Unit/Play_object_ca_da
+        guid: 35dc7c348f643b42947059d6f1e0ef80
+      Path: Events/Default Work Unit/Play_object_caida
       maxAttenuation: 0
-      maxDuration: 2.5121107
-      minDuration: 2.013841
+      maxDuration: 1.2416283
+      minDuration: 0.99535495
     - name: Play_object_rearma
       guid: c4ca81edfc097648b38857ca38021753
       id: 1754441394
@@ -945,7 +945,7 @@ MonoBehaviour:
     m_lastTime: -8584780902202470947
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000001300000014000000
+  ExpandedWaapiItemIds: 050000000600000013000000140000001f00000020000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

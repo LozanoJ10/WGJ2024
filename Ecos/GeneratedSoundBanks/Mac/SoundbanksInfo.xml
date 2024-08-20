@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="115323305" Type="User" Language="SFX" Hash="{6A4A4CB1-ABA4-E8D3-D483-E3D402C9573E}">
+		<SoundBank Id="115323305" Type="User" Language="SFX" Hash="{B8551F7F-1C50-9B8D-2C77-F1B3B271DC04}">
 			<ShortName>Ecos_soundbank</ShortName>
 			<Path>Ecos_soundbank.bnk</Path>
 			<Media>
@@ -157,6 +157,8 @@
 				</Custom>
 				<ShareSets>
 					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="949863463" Name="Many_Even_Harm_Notches" LibName="Wwise Flanger" LibId="8192003"/>
+					<Plugin Id="1198215643" Name="Boomerang" LibName="Wwise Tremolo" LibId="8585219"/>
 					<Plugin Id="1820854077" Name="Noise_Gate_Fast_Attack" LibName="Wwise Expander" LibId="7143427"/>
 					<Plugin Id="1863245162" Name="Noise_Gate_Slow_Attack" LibName="Wwise Expander" LibId="7143427"/>
 					<Plugin Id="2653529179" Name="Three_Voices" LibName="Wwise Harmonizer" LibId="9043971"/>
@@ -194,7 +196,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="3695288582" Name="Play_object_breaks" DurationType="OneShot" DurationMin="1.3545859" DurationMax="2.7980921">
+				<Event Id="3695288582" Name="Play_object_breaks" DurationType="OneShot" DurationMin="1.3390272" DurationMax="2.7659535">
 					<MediaRefs>
 						<MediaRef Id="24859787"/>
 						<MediaRef Id="51429071"/>
@@ -212,7 +214,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="1481202888" Name="Play_object_ca_da" DurationType="OneShot" DurationMin="2.013841" DurationMax="2.5121107">
+				<Event Id="884697214" Name="Play_object_caida" DurationType="OneShot" DurationMin="0.99535495" DurationMax="1.2416283">
 					<MediaRefs>
 						<MediaRef Id="99600105"/>
 						<MediaRef Id="297838992"/>
@@ -223,9 +225,11 @@
 							<PluginRef Id="862804759"/>
 						</Custom>
 						<ShareSets>
+							<PluginRef Id="949863463"/>
+							<PluginRef Id="1198215643"/>
+							<PluginRef Id="1820854077"/>
 							<PluginRef Id="1863245162"/>
 							<PluginRef Id="2653529179"/>
-							<PluginRef Id="2805769450"/>
 						</ShareSets>
 					</PluginRefs>
 				</Event>
@@ -304,7 +308,7 @@
 				<Event Id="3331308815" Name="Stop_REbobinar_el_reloj" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6231A86B-6A5A-174F-F049-5545326184DC}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{71025C13-0C4F-1F33-4F4F-4F5B4F0FB58D}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -458,5 +462,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1306B737-82BD-CF6E-C9D8-EDEBBA388076}</FileHash>
+	<FileHash>{A32F30B8-B13C-A930-211B-A5A34624E1FA}</FileHash>
 </SoundBanksInfo>

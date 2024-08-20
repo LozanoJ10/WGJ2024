@@ -14,17 +14,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_object_ca_da" ID="{1BC297D4-A4C2-4FC3-A18B-A4C60705A054}">
-					<ChildrenList>
-						<Action Name="" ID="{68D017DC-DB02-4A96-9C3A-67883FD14560}" ShortID="389870253">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="object_caída" ID="{69A488D3-5A4B-4041-B903-AD2E57019271}" WorkUnitID="{B239EE58-6147-452E-B4C2-473016892285}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_object_rearma" ID="{ED81CAC4-09FC-4876-B388-57CA38021753}">
 					<ChildrenList>
 						<Action Name="" ID="{5D972B56-82DC-4752-82A3-47CAB4B64D82}" ShortID="730837024">
@@ -246,6 +235,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="object_arrastrar" ID="{C773269D-FAB4-4D7D-AEB6-ACDDD0EBDC32}" WorkUnitID="{B239EE58-6147-452E-B4C2-473016892285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_object_caida" ID="{347CDC35-648F-423B-9470-59D6F1E0EF80}">
+					<ChildrenList>
+						<Action Name="" ID="{5BF1403B-B654-4E35-BC45-A0B24BB6C5E8}" ShortID="220374977">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="object_caida" ID="{69A488D3-5A4B-4041-B903-AD2E57019271}" WorkUnitID="{B239EE58-6147-452E-B4C2-473016892285}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

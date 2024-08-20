@@ -10,6 +10,7 @@
 						<ObjectRef Name="Play_player_saltos_madera" ID="{54B62567-219E-40A8-860A-6EC2DC29689A}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Selecci_n_en_el_menu_02" ID="{CCE7EF29-10CF-4154-B34D-09257AA86AEA}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_player_saltos_piedra" ID="{ECDA2257-5AD0-419F-A365-0E0A5B13E7E3}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_object_caida" ID="{347CDC35-648F-423B-9470-59D6F1E0EF80}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_mus_juego_general_01" ID="{6D978AF5-5447-445F-A76A-6702DA397D9E}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_object_breaks" ID="{CF6DAFC9-65FF-4491-9B47-DEC8BAD764AD}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_mus_menu_01" ID="{7D03D155-021E-45F8-BCAA-D5E0DC150216}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
@@ -26,7 +27,6 @@
 						<ObjectRef Name="Stop_object_arrastrar" ID="{DC6BFACA-89C9-4E2A-8E1B-EE17D1A61B79}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_REbobinar_el_reloj" ID="{3B4D9AE8-A4B1-4E75-9AD9-A55977CB90F4}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_fader" ID="{FFC503A6-6667-4F32-89E3-84AED57E0BC2}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_object_ca_da" ID="{1BC297D4-A4C2-4FC3-A18B-A4C60705A054}" WorkUnitID="{A40A3D8D-5FA5-4DD6-9CC4-04B01D2899AB}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
